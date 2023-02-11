@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name "cabline_uy")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/20854-005E-02.kicad_sym")(options "")(descr ""))
+  (lib (name "ac608")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/ac608.kicad_sym")(options "")(descr ""))
+  (lib (name "LCD-20X4B")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/LCD-20X4B.kicad_sym")(options "")(descr ""))
+  (lib (name "assorted")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/assorted.kicad_sym")(options "")(descr ""))
+)
