@@ -1,0 +1,2 @@
+STEP file from https://grabcad.com/library/lcd-20x4-display-hd44780-arduino-raspberry-pi-1
+kicad_mod from https://gitlab.com/kicad/libraries/kicad-footprints/-/tree/github/fork/kirk-loeten/master
