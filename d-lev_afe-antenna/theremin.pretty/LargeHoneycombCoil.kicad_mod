@@ -1,0 +1,90 @@
+(footprint "LargeHoneycombCoil" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (descr "Custom honeycomb coil from alibaba")
+  (tags "inductor axial horizontal")
+  (attr through_hole)
+  (fp_text reference "REF**" (at 5 -3) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 26be4f57-3212-490f-8d50-d526eaee19e2)
+  )
+  (fp_text value "L_Honeycomb_Coil" (at -1.4224 11.128) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 2f81c34a-ec1c-4116-bea0-7323cfdd0f41)
+  )
+  (fp_text user "${REFERENCE}" (at -1.4224 8.128) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 8f973f0c-339e-480c-b116-50ab82360c15)
+  )
+  (fp_line (start -10.3632 -2.6162) (end -6.7564 -2.6162)
+    (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp fb8c7d1a-147b-4704-9276-93f6663a8492))
+  (fp_line (start -10.3632 -0.3556) (end -16.9672 -0.3556)
+    (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp 744936f3-a8db-4798-acbd-3e12afc0e894))
+  (fp_line (start -10.3632 -0.3556) (end -10.3632 -2.6162)
+    (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp 7f4634db-65bd-4bf8-a4f0-650d77c10a5e))
+  (fp_line (start -10.3632 0.4064) (end -16.9672 0.4064)
+    (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp 4eee84ae-2351-4f39-856c-318fbe68c3c6))
+  (fp_line (start -10.3632 0.4064) (end -10.3632 2.3876)
+    (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp 91829a54-87d4-4ca6-94c1-a5962e149325))
+  (fp_line (start -10.3632 2.3876) (end -6.7564 2.3876)
+    (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp 9ef6a4ba-e993-4e57-b1c5-2bd366a9c390))
+  (fp_line (start -4.1148 -2.4384) (end -3.048 -2.4384)
+    (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp 8560419a-3bd0-47f5-b8e0-14944c71a449))
+  (fp_line (start -4.1148 2.286) (end -3.048 2.286)
+    (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp 758a19b8-3d0b-4276-94cd-37ec2a97f0bd))
+  (fp_line (start -0.508 -2.4384) (end 0.5588 -2.4384)
+    (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp eb307da4-3ba2-47ce-84d6-decc60eb3308))
+  (fp_line (start -0.508 2.286) (end 0.5588 2.286)
+    (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp 19807534-7d32-4f8b-8278-decc1e15450c))
+  (fp_line (start 3.0734 -2.4384) (end 4.1402 -2.4384)
+    (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp d9fb42cc-e311-4d3d-9ac4-7afd2945a22f))
+  (fp_line (start 3.0734 2.286) (end 4.1402 2.286)
+    (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp 2c17b48d-57d8-4126-b37e-cd002638bf1a))
+  (fp_line (start 10.2616 -2.6162) (end 6.6548 -2.6162)
+    (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp c7cfc9bd-79e9-4c0f-b3a2-5629f58faf4b))
+  (fp_line (start 10.2616 -0.3556) (end 10.2616 -2.6162)
+    (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp f4e79526-55f1-4eb2-8a48-b08b62a697b9))
+  (fp_line (start 10.2616 -0.3556) (end 16.9672 -0.3556)
+    (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp e2467e51-8385-4ef2-8725-0a2ba25dd50b))
+  (fp_line (start 10.2616 0.4064) (end 10.2616 2.3876)
+    (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp 798831b1-6336-4616-8e5a-c7858fea1c44))
+  (fp_line (start 10.2616 0.4064) (end 16.9672 0.4064)
+    (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp 93c906ab-e688-40b9-9670-a3ced7a493f2))
+  (fp_line (start 10.2616 2.3876) (end 6.6548 2.3876)
+    (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp d20a92ac-d220-4d97-81f5-abdfc30013ec))
+  (fp_rect (start -6.604 -4.8768) (end -4.1148 4.572)
+    (stroke (width 0.1) (type default)) (fill none) (layer "F.SilkS") (tstamp 67cc29bd-00d5-48b8-baca-7c9326a0cb76))
+  (fp_rect (start -3.048 -4.8768) (end -0.5588 4.572)
+    (stroke (width 0.1) (type default)) (fill none) (layer "F.SilkS") (tstamp 55a59804-a764-4cdb-b5e0-341ea282460c))
+  (fp_rect (start 0.5588 -4.8768) (end 3.048 4.572)
+    (stroke (width 0.1) (type default)) (fill none) (layer "F.SilkS") (tstamp 04744716-4644-4d85-9614-0a7923e35a30))
+  (fp_rect (start 4.1402 -4.8768) (end 6.6294 4.572)
+    (stroke (width 0.1) (type default)) (fill none) (layer "F.SilkS") (tstamp 0dbaa940-a38d-4713-ae52-ec597b71a96e))
+  (pad "1" thru_hole rect (at -18 0) (size 2 2) (drill 1.1) (layers "*.Cu" "*.Mask") (tstamp 44084cc6-5798-492e-bb83-79771788013d))
+  (pad "2" thru_hole rect (at 18 0) (size 2 2) (drill 1.1) (layers "*.Cu" "*.Mask") (tstamp f9e08e7f-98b7-4bc1-a49f-26e9694102fc))
+  (group "Honeycomb_Drawing" (id 285d9399-6573-40da-861f-3f40afc27e0b)
+    (members
+      04744716-4644-4d85-9614-0a7923e35a30
+      0dbaa940-a38d-4713-ae52-ec597b71a96e
+      19807534-7d32-4f8b-8278-decc1e15450c
+      2c17b48d-57d8-4126-b37e-cd002638bf1a
+      4eee84ae-2351-4f39-856c-318fbe68c3c6
+      55a59804-a764-4cdb-b5e0-341ea282460c
+      67cc29bd-00d5-48b8-baca-7c9326a0cb76
+      744936f3-a8db-4798-acbd-3e12afc0e894
+      758a19b8-3d0b-4276-94cd-37ec2a97f0bd
+      798831b1-6336-4616-8e5a-c7858fea1c44
+      7f4634db-65bd-4bf8-a4f0-650d77c10a5e
+      8560419a-3bd0-47f5-b8e0-14944c71a449
+      91829a54-87d4-4ca6-94c1-a5962e149325
+      93c906ab-e688-40b9-9670-a3ced7a493f2
+      9ef6a4ba-e993-4e57-b1c5-2bd366a9c390
+      c7cfc9bd-79e9-4c0f-b3a2-5629f58faf4b
+      d20a92ac-d220-4d97-81f5-abdfc30013ec
+      d9fb42cc-e311-4d3d-9ac4-7afd2945a22f
+      e2467e51-8385-4ef2-8725-0a2ba25dd50b
+      eb307da4-3ba2-47ce-84d6-decc60eb3308
+      f4e79526-55f1-4eb2-8a48-b08b62a697b9
+      fb8c7d1a-147b-4704-9276-93f6663a8492
+    )
+  )
+)

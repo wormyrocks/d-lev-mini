@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "theremin")(type "KiCad")(uri "${KIPRJMOD}/theremin.pretty")(options "")(descr ""))
+)
