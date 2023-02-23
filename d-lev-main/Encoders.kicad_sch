@@ -817,15 +817,15 @@
     (uuid fd24554d-01b8-4c00-986c-47b24e6b9998)
   )
 
-  (hierarchical_label "B[0..7]" (shape output) (at 97.155 25.4 0) (fields_autoplaced)
+  (hierarchical_label "B[0..7]" (shape bidirectional) (at 97.155 25.4 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 76ce471b-c1f6-4730-bfa5-800048be43bb)
   )
-  (hierarchical_label "S[0..7]" (shape output) (at 40.64 90.17 180) (fields_autoplaced)
+  (hierarchical_label "S[0..7]" (shape bidirectional) (at 40.64 90.17 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid a2f9d455-56fb-48be-970a-e964f2298359)
   )
-  (hierarchical_label "A[0..7]" (shape output) (at 118.745 88.265 0) (fields_autoplaced)
+  (hierarchical_label "A[0..7]" (shape bidirectional) (at 118.745 88.265 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid aa8b7cf3-3409-4092-b887-0e2bff9c19a6)
   )
@@ -833,7 +833,7 @@
   (symbol (lib_id "power:GND") (at 59.69 175.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1ceaaa06-e755-4130-b6cd-dbf7e9306562)
-    (property "Reference" "#PWR0123" (at 59.69 181.61 0)
+    (property "Reference" "#PWR029" (at 59.69 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 59.69 180.34 0)
@@ -849,7 +849,7 @@
     (instances
       (project "dlev-mini"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/a7ad5bc5-58e2-407c-aeb8-75270556c3dc"
-          (reference "#PWR0123") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -887,7 +887,7 @@
   (symbol (lib_id "power:GND") (at 59.69 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2460afa0-034f-4b6f-aab9-4b656271eb20)
-    (property "Reference" "#PWR0124" (at 59.69 161.29 0)
+    (property "Reference" "#PWR028" (at 59.69 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 59.69 160.02 0)
@@ -903,7 +903,7 @@
     (instances
       (project "dlev-mini"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/a7ad5bc5-58e2-407c-aeb8-75270556c3dc"
-          (reference "#PWR0124") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -912,7 +912,7 @@
   (symbol (lib_id "power:GND") (at 85.09 87.63 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 276629af-0bdd-48a6-9d4a-9f8e778188f3)
-    (property "Reference" "#PWR0134" (at 85.09 93.98 0)
+    (property "Reference" "#PWR033" (at 85.09 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 85.09 92.71 0)
@@ -928,7 +928,7 @@
     (instances
       (project "dlev-mini"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/a7ad5bc5-58e2-407c-aeb8-75270556c3dc"
-          (reference "#PWR0134") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -995,7 +995,7 @@
   (symbol (lib_id "power:GND") (at 59.69 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3f39d0d1-a773-446b-83f1-6e665eb83342)
-    (property "Reference" "#PWR0135" (at 59.69 76.2 0)
+    (property "Reference" "#PWR024" (at 59.69 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 59.69 74.93 0)
@@ -1011,7 +1011,7 @@
     (instances
       (project "dlev-mini"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/a7ad5bc5-58e2-407c-aeb8-75270556c3dc"
-          (reference "#PWR0135") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -1020,7 +1020,7 @@
   (symbol (lib_id "power:GND") (at 59.69 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 49fa6272-2ea1-4e08-a867-0b415bb79646)
-    (property "Reference" "#PWR0136" (at 59.69 55.88 0)
+    (property "Reference" "#PWR023" (at 59.69 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 59.69 54.61 0)
@@ -1036,7 +1036,7 @@
     (instances
       (project "dlev-mini"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/a7ad5bc5-58e2-407c-aeb8-75270556c3dc"
-          (reference "#PWR0136") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -1103,7 +1103,7 @@
   (symbol (lib_id "power:GND") (at 59.69 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6cfcee1a-fe8e-4ac1-a8f7-e06f5bda7a72)
-    (property "Reference" "#PWR0133" (at 59.69 96.52 0)
+    (property "Reference" "#PWR025" (at 59.69 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 59.69 95.25 0)
@@ -1119,7 +1119,7 @@
     (instances
       (project "dlev-mini"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/a7ad5bc5-58e2-407c-aeb8-75270556c3dc"
-          (reference "#PWR0133") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -1128,7 +1128,7 @@
   (symbol (lib_id "power:GND") (at 85.09 46.99 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 722fe8d7-bd2f-4c01-babb-96052cd2a802)
-    (property "Reference" "#PWR0132" (at 85.09 53.34 0)
+    (property "Reference" "#PWR031" (at 85.09 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 85.09 52.07 0)
@@ -1144,7 +1144,7 @@
     (instances
       (project "dlev-mini"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/a7ad5bc5-58e2-407c-aeb8-75270556c3dc"
-          (reference "#PWR0132") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -1153,7 +1153,7 @@
   (symbol (lib_id "power:GND") (at 59.69 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7eaa7d9f-7605-4854-a5c8-62e6d6161521)
-    (property "Reference" "#PWR0137" (at 59.69 35.56 0)
+    (property "Reference" "#PWR022" (at 59.69 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 59.69 34.29 0)
@@ -1169,7 +1169,7 @@
     (instances
       (project "dlev-mini"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/a7ad5bc5-58e2-407c-aeb8-75270556c3dc"
-          (reference "#PWR0137") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -1178,7 +1178,7 @@
   (symbol (lib_id "power:GND") (at 59.69 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9c2022ef-65bf-45ad-824e-638db5ab3ef8)
-    (property "Reference" "#PWR0126" (at 59.69 120.65 0)
+    (property "Reference" "#PWR026" (at 59.69 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 59.69 119.38 0)
@@ -1194,7 +1194,7 @@
     (instances
       (project "dlev-mini"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/a7ad5bc5-58e2-407c-aeb8-75270556c3dc"
-          (reference "#PWR0126") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -1232,7 +1232,7 @@
   (symbol (lib_id "power:GND") (at 59.69 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b429512e-009c-442f-80f1-1408bb929ae7)
-    (property "Reference" "#PWR0122" (at 59.69 140.97 0)
+    (property "Reference" "#PWR027" (at 59.69 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 59.69 139.7 0)
@@ -1248,7 +1248,7 @@
     (instances
       (project "dlev-mini"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/a7ad5bc5-58e2-407c-aeb8-75270556c3dc"
-          (reference "#PWR0122") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -1257,7 +1257,7 @@
   (symbol (lib_id "power:GND") (at 85.09 152.4 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b4fb3078-d52e-4ada-aea7-8cc9ae8a5e73)
-    (property "Reference" "#PWR0127" (at 85.09 158.75 0)
+    (property "Reference" "#PWR036" (at 85.09 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 85.09 157.48 0)
@@ -1273,7 +1273,7 @@
     (instances
       (project "dlev-mini"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/a7ad5bc5-58e2-407c-aeb8-75270556c3dc"
-          (reference "#PWR0127") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
     )
@@ -1282,7 +1282,7 @@
   (symbol (lib_id "power:GND") (at 85.09 67.31 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cbd21cc9-92e5-427a-a410-665cb4da353d)
-    (property "Reference" "#PWR0130" (at 85.09 73.66 0)
+    (property "Reference" "#PWR032" (at 85.09 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 85.09 72.39 0)
@@ -1298,7 +1298,7 @@
     (instances
       (project "dlev-mini"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/a7ad5bc5-58e2-407c-aeb8-75270556c3dc"
-          (reference "#PWR0130") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -1307,7 +1307,7 @@
   (symbol (lib_id "power:GND") (at 85.09 26.67 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d4c645c2-d202-47b0-917d-49493f57e4f8)
-    (property "Reference" "#PWR0131" (at 85.09 33.02 0)
+    (property "Reference" "#PWR030" (at 85.09 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 85.09 31.75 0)
@@ -1323,7 +1323,7 @@
     (instances
       (project "dlev-mini"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/a7ad5bc5-58e2-407c-aeb8-75270556c3dc"
-          (reference "#PWR0131") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -1361,7 +1361,7 @@
   (symbol (lib_id "power:GND") (at 85.09 172.72 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d6d9a94c-dcdb-48b6-a3f3-3531854702bc)
-    (property "Reference" "#PWR0128" (at 85.09 179.07 0)
+    (property "Reference" "#PWR037" (at 85.09 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 85.09 177.8 0)
@@ -1377,7 +1377,7 @@
     (instances
       (project "dlev-mini"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/a7ad5bc5-58e2-407c-aeb8-75270556c3dc"
-          (reference "#PWR0128") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
     )
@@ -1386,7 +1386,7 @@
   (symbol (lib_id "power:GND") (at 85.09 111.76 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e434f766-27b0-4844-94cb-8a94875e67f1)
-    (property "Reference" "#PWR0125" (at 85.09 118.11 0)
+    (property "Reference" "#PWR034" (at 85.09 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 85.09 116.84 0)
@@ -1402,7 +1402,7 @@
     (instances
       (project "dlev-mini"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/a7ad5bc5-58e2-407c-aeb8-75270556c3dc"
-          (reference "#PWR0125") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -1440,7 +1440,7 @@
   (symbol (lib_id "power:GND") (at 85.09 132.08 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fffcba0b-d641-422c-b202-deac81346ae5)
-    (property "Reference" "#PWR0129" (at 85.09 138.43 0)
+    (property "Reference" "#PWR035" (at 85.09 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 85.09 137.16 0)
@@ -1456,7 +1456,7 @@
     (instances
       (project "dlev-mini"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/a7ad5bc5-58e2-407c-aeb8-75270556c3dc"
-          (reference "#PWR0129") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
     )
