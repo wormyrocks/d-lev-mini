@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "theremin")(type "KiCad")(uri "${KIPRJMOD}/../d-lev-libraries/lib_sch/theremin.kicad_sym")(options "")(descr ""))
+  (lib (name "ess-dac")(type "KiCad")(uri "${KIPRJMOD}/../d-lev-libraries/lib_sch/ess-dac.kicad_sym")(options "")(descr ""))
+)
