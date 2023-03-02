@@ -356,59 +356,6 @@
         )
       )
     )
-    (symbol "Device:CP" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-      (property "Reference" "C" (at 0.635 2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "Device_CP" (at 0.635 -2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 0.9652 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "CP_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "CP_0_1"
-        (rectangle (start -2.286 0.508) (end 2.286 1.016)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.778 2.286)
-            (xy -0.762 2.286)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.27 2.794)
-            (xy -1.27 1.778)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (rectangle (start 2.286 -0.508) (end -2.286 -1.016)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-      )
-      (symbol "CP_1_1"
-        (pin passive line (at 0 3.81 270) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "Device:L" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "L" (at -1.27 0 90)
         (effects (font (size 1.27 1.27)))
@@ -1611,6 +1558,11 @@
     (uuid fee41e25-94eb-4281-9284-7562478edd7e)
   )
 
+  (text "TODO: change this to PCB capacitor" (at 151.13 93.98 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid abc838e3-e808-483d-bbe2-3e705a57569a)
+  )
+
   (label "C_DIV" (at 181.61 100.33 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 39f92d6c-42f5-4d64-9445-0f8f5c9d6b83)
@@ -1684,7 +1636,7 @@
     )
   )
 
-  (symbol (lib_id "Device:CP") (at 59.69 53.34 0) (unit 1)
+  (symbol (lib_id "Device:C") (at 59.69 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 006f615b-9c57-4119-bb05-1553ec228895)
     (property "Reference" "C2" (at 62.6872 52.1716 0)
@@ -1693,7 +1645,7 @@
     (property "Value" "10uF" (at 62.6872 54.483 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A" (at 60.6552 57.15 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 60.6552 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 59.69 53.34 0)
@@ -1702,7 +1654,7 @@
     (pin "1" (uuid cb57a3af-01ee-427c-a89b-337d76d67c51))
     (pin "2" (uuid ed158cda-69bd-49cf-88ac-1de4e44fb56f))
     (instances
-      (project "d-lev_afe-antenna"
+      (project "d-lev-afe"
         (path "/3b0ead2a-6fae-4ae2-8192-98c9e26989ec"
           (reference "C2") (unit 1)
         )
@@ -1729,7 +1681,7 @@
     (pin "2" (uuid d8f50ddb-7aaa-4406-b57c-9cafc503056f))
     (pin "3" (uuid bae4795d-df5c-4f17-9855-ba9cee6fd0f7))
     (instances
-      (project "d-lev_afe-antenna"
+      (project "d-lev-afe"
         (path "/3b0ead2a-6fae-4ae2-8192-98c9e26989ec"
           (reference "U2") (unit 1)
         )
@@ -1754,7 +1706,7 @@
     )
     (pin "1" (uuid 06bf9fe8-3ab8-4e99-be30-ff443ef53ae0))
     (instances
-      (project "d-lev_afe-antenna"
+      (project "d-lev-afe"
         (path "/3b0ead2a-6fae-4ae2-8192-98c9e26989ec"
           (reference "#PWR03") (unit 1)
         )
@@ -1779,7 +1731,7 @@
     )
     (pin "1" (uuid a0c641c1-9d01-4b73-b1b9-4cf601b8d4c0))
     (instances
-      (project "d-lev_afe-antenna"
+      (project "d-lev-afe"
         (path "/3b0ead2a-6fae-4ae2-8192-98c9e26989ec"
           (reference "#PWR012") (unit 1)
         )
@@ -1806,7 +1758,7 @@
     (pin "2" (uuid 2a2d8c28-ca37-402e-a743-4895f040ad66))
     (pin "3" (uuid 9f50003a-ac09-48cd-aa4e-082ecabcdc80))
     (instances
-      (project "d-lev_afe-antenna"
+      (project "d-lev-afe"
         (path "/3b0ead2a-6fae-4ae2-8192-98c9e26989ec"
           (reference "Q1") (unit 1)
         )
@@ -1844,7 +1796,7 @@
     (pin "14" (uuid 05306b95-31c0-40db-b42a-9b5aa5072fce))
     (pin "7" (uuid 3b0011ac-5cae-46cf-a053-e91b1251e8a8))
     (instances
-      (project "d-lev_afe-antenna"
+      (project "d-lev-afe"
         (path "/3b0ead2a-6fae-4ae2-8192-98c9e26989ec"
           (reference "U1") (unit 5)
         )
@@ -1869,7 +1821,7 @@
     )
     (pin "1" (uuid 410a5636-c810-464a-8a2d-9da3044eaaee))
     (instances
-      (project "d-lev_afe-antenna"
+      (project "d-lev-afe"
         (path "/3b0ead2a-6fae-4ae2-8192-98c9e26989ec"
           (reference "#PWR01") (unit 1)
         )
@@ -1895,7 +1847,7 @@
     (pin "1" (uuid 18277114-50f3-4d18-b626-ea0c92dcb228))
     (pin "2" (uuid 7ddaf375-73f7-4b33-9530-d021fdd9b6bf))
     (instances
-      (project "d-lev_afe-antenna"
+      (project "d-lev-afe"
         (path "/3b0ead2a-6fae-4ae2-8192-98c9e26989ec"
           (reference "R5") (unit 1)
         )
@@ -1933,7 +1885,7 @@
     (pin "14" (uuid 3fbcf540-5400-4ef1-b444-c1897baeb061))
     (pin "7" (uuid 625c0a52-bc91-413c-bc9a-5acf0ca53907))
     (instances
-      (project "d-lev_afe-antenna"
+      (project "d-lev-afe"
         (path "/3b0ead2a-6fae-4ae2-8192-98c9e26989ec"
           (reference "U1") (unit 2)
         )
@@ -1959,7 +1911,7 @@
     (pin "1" (uuid adc3eba2-c369-4af1-ae6f-bcc2d38b4cb2))
     (pin "2" (uuid 44919f56-893d-4435-9564-d52e948b3637))
     (instances
-      (project "d-lev_afe-antenna"
+      (project "d-lev-afe"
         (path "/3b0ead2a-6fae-4ae2-8192-98c9e26989ec"
           (reference "C4") (unit 1)
         )
@@ -1984,7 +1936,7 @@
     )
     (pin "1" (uuid 4f32aa45-f126-417f-91d7-38f51e709600))
     (instances
-      (project "d-lev_afe-antenna"
+      (project "d-lev-afe"
         (path "/3b0ead2a-6fae-4ae2-8192-98c9e26989ec"
           (reference "#PWR016") (unit 1)
         )
@@ -2010,7 +1962,7 @@
     (pin "1" (uuid e9bd498d-ade1-4fa8-8c5c-7c219edc27cb))
     (pin "2" (uuid 96ceb3af-6fa2-4246-9fd0-4a149db9493c))
     (instances
-      (project "d-lev_afe-antenna"
+      (project "d-lev-afe"
         (path "/3b0ead2a-6fae-4ae2-8192-98c9e26989ec"
           (reference "C3") (unit 1)
         )
@@ -2035,7 +1987,7 @@
     )
     (pin "1" (uuid 889a4226-045b-4931-aaea-53ed3f2e2797))
     (instances
-      (project "d-lev_afe-antenna"
+      (project "d-lev-afe"
         (path "/3b0ead2a-6fae-4ae2-8192-98c9e26989ec"
           (reference "AE1") (unit 1)
         )
@@ -2061,7 +2013,7 @@
     (pin "1" (uuid b9e0cfd9-6ab5-4796-afed-7790a82ff071))
     (pin "2" (uuid bfcc55bc-93fe-475b-ab08-8ebab0f8c7d6))
     (instances
-      (project "d-lev_afe-antenna"
+      (project "d-lev-afe"
         (path "/3b0ead2a-6fae-4ae2-8192-98c9e26989ec"
           (reference "C6") (unit 1)
         )
@@ -2086,7 +2038,7 @@
     )
     (pin "1" (uuid 24684e14-2328-4c1f-8448-a92e6538ac55))
     (instances
-      (project "d-lev_afe-antenna"
+      (project "d-lev-afe"
         (path "/3b0ead2a-6fae-4ae2-8192-98c9e26989ec"
           (reference "#PWR07") (unit 1)
         )
@@ -2113,7 +2065,7 @@
     (pin "2" (uuid b8b084ed-dbe0-40cc-85e5-5e2207ba002d))
     (pin "3" (uuid 048708c3-1b83-450d-a28f-7587ffccbb77))
     (instances
-      (project "d-lev_afe-antenna"
+      (project "d-lev-afe"
         (path "/3b0ead2a-6fae-4ae2-8192-98c9e26989ec"
           (reference "Q2") (unit 1)
         )
@@ -2138,7 +2090,7 @@
     )
     (pin "1" (uuid 998a984d-6aa1-4397-8310-ef5f7a6e063e))
     (instances
-      (project "d-lev_afe-antenna"
+      (project "d-lev-afe"
         (path "/3b0ead2a-6fae-4ae2-8192-98c9e26989ec"
           (reference "#PWR06") (unit 1)
         )
@@ -2164,7 +2116,7 @@
     (pin "1" (uuid d58131d3-4f04-46f4-b60e-6e87073a3720))
     (pin "2" (uuid 699b154b-7834-4241-93ae-c587f435a62b))
     (instances
-      (project "d-lev_afe-antenna"
+      (project "d-lev-afe"
         (path "/3b0ead2a-6fae-4ae2-8192-98c9e26989ec"
           (reference "C5") (unit 1)
         )
@@ -2189,7 +2141,7 @@
     )
     (pin "1" (uuid b0ab92d9-93d3-464f-a531-a1219f170ad7))
     (instances
-      (project "d-lev_afe-antenna"
+      (project "d-lev-afe"
         (path "/3b0ead2a-6fae-4ae2-8192-98c9e26989ec"
           (reference "#PWR021") (unit 1)
         )
@@ -2215,7 +2167,7 @@
     (pin "1" (uuid b6b0f761-c2a1-48bc-b127-5a9a43c952f3))
     (pin "2" (uuid 1607cf6d-6438-431c-a530-188f38629add))
     (instances
-      (project "d-lev_afe-antenna"
+      (project "d-lev-afe"
         (path "/3b0ead2a-6fae-4ae2-8192-98c9e26989ec"
           (reference "C8") (unit 1)
         )
@@ -2240,7 +2192,7 @@
     )
     (pin "1" (uuid 8c49c2c8-fd0b-4f2e-9e64-1413c7cc8723))
     (instances
-      (project "d-lev_afe-antenna"
+      (project "d-lev-afe"
         (path "/3b0ead2a-6fae-4ae2-8192-98c9e26989ec"
           (reference "#PWR013") (unit 1)
         )
@@ -2265,7 +2217,7 @@
     )
     (pin "1" (uuid 91cb79fd-e832-4c03-82b2-b8173eafd001))
     (instances
-      (project "d-lev_afe-antenna"
+      (project "d-lev-afe"
         (path "/3b0ead2a-6fae-4ae2-8192-98c9e26989ec"
           (reference "H1") (unit 1)
         )
@@ -2290,7 +2242,7 @@
     )
     (pin "1" (uuid 4dbd4b8d-1010-448a-8f91-cc0d46ef3f0b))
     (instances
-      (project "d-lev_afe-antenna"
+      (project "d-lev-afe"
         (path "/3b0ead2a-6fae-4ae2-8192-98c9e26989ec"
           (reference "#PWR09") (unit 1)
         )
@@ -2298,7 +2250,7 @@
     )
   )
 
-  (symbol (lib_id "Device:CP") (at 34.29 53.34 0) (unit 1)
+  (symbol (lib_id "Device:C") (at 34.29 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4cd2cda0-25f2-4335-b254-1a5f0639a43f)
     (property "Reference" "C1" (at 37.2872 52.1716 0)
@@ -2307,7 +2259,7 @@
     (property "Value" "10uF" (at 37.2872 54.483 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A" (at 35.2552 57.15 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 35.2552 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 34.29 53.34 0)
@@ -2316,7 +2268,7 @@
     (pin "1" (uuid 7492e8b6-4ebc-43e6-be8b-51ccc59b1bce))
     (pin "2" (uuid de935106-d358-4cd2-b8ef-16d0ac9ddeeb))
     (instances
-      (project "d-lev_afe-antenna"
+      (project "d-lev-afe"
         (path "/3b0ead2a-6fae-4ae2-8192-98c9e26989ec"
           (reference "C1") (unit 1)
         )
@@ -2341,7 +2293,7 @@
     )
     (pin "1" (uuid 09da92b2-af6d-4c6b-a67d-911328894bd2))
     (instances
-      (project "d-lev_afe-antenna"
+      (project "d-lev-afe"
         (path "/3b0ead2a-6fae-4ae2-8192-98c9e26989ec"
           (reference "H2") (unit 1)
         )
@@ -2367,7 +2319,7 @@
     (pin "1" (uuid 343d4009-a261-425d-97b0-96d2c2f85312))
     (pin "2" (uuid c478d235-b680-41c8-b1c0-ab75c8bebf78))
     (instances
-      (project "d-lev_afe-antenna"
+      (project "d-lev-afe"
         (path "/3b0ead2a-6fae-4ae2-8192-98c9e26989ec"
           (reference "R6") (unit 1)
         )
@@ -2405,7 +2357,7 @@
     (pin "14" (uuid 72dea768-9aea-4c60-a5ad-3649504b53ee))
     (pin "7" (uuid d9e7e0c7-791d-43f7-b8d9-a5375deef7af))
     (instances
-      (project "d-lev_afe-antenna"
+      (project "d-lev-afe"
         (path "/3b0ead2a-6fae-4ae2-8192-98c9e26989ec"
           (reference "U1") (unit 6)
         )
@@ -2431,7 +2383,7 @@
     (pin "1" (uuid 5c97fa84-ab64-44e5-91f1-0b13781499a2))
     (pin "2" (uuid fb012ebb-ae8e-46f2-874b-61ed58ca8d61))
     (instances
-      (project "d-lev_afe-antenna"
+      (project "d-lev-afe"
         (path "/3b0ead2a-6fae-4ae2-8192-98c9e26989ec"
           (reference "R3") (unit 1)
         )
@@ -2457,7 +2409,7 @@
     (pin "1" (uuid 7156f4b2-4986-4710-a7f6-5364f4a44087))
     (pin "2" (uuid f85f25c6-9dff-45d1-b78b-fcd9b384cde5))
     (instances
-      (project "d-lev_afe-antenna"
+      (project "d-lev-afe"
         (path "/3b0ead2a-6fae-4ae2-8192-98c9e26989ec"
           (reference "R7") (unit 1)
         )
@@ -2482,7 +2434,7 @@
     )
     (pin "1" (uuid 40bc02c1-7ee7-44fe-b0d5-bf87d8c08756))
     (instances
-      (project "d-lev_afe-antenna"
+      (project "d-lev-afe"
         (path "/3b0ead2a-6fae-4ae2-8192-98c9e26989ec"
           (reference "#PWR019") (unit 1)
         )
@@ -2507,7 +2459,7 @@
     )
     (pin "1" (uuid 30f1b846-c87f-4044-b28a-952f849eabc2))
     (instances
-      (project "d-lev_afe-antenna"
+      (project "d-lev-afe"
         (path "/3b0ead2a-6fae-4ae2-8192-98c9e26989ec"
           (reference "#PWR010") (unit 1)
         )
@@ -2532,7 +2484,7 @@
     )
     (pin "1" (uuid 1b651c96-77d6-4d75-ad6c-5d222c087f7a))
     (instances
-      (project "d-lev_afe-antenna"
+      (project "d-lev-afe"
         (path "/3b0ead2a-6fae-4ae2-8192-98c9e26989ec"
           (reference "#PWR017") (unit 1)
         )
@@ -2558,7 +2510,7 @@
     (pin "1" (uuid a03619e5-02ad-4d1b-b313-4ba705bdb589))
     (pin "2" (uuid 714718a2-6d4a-4134-adb7-6524a117c2ab))
     (instances
-      (project "d-lev_afe-antenna"
+      (project "d-lev-afe"
         (path "/3b0ead2a-6fae-4ae2-8192-98c9e26989ec"
           (reference "R1") (unit 1)
         )
@@ -2583,7 +2535,7 @@
     )
     (pin "1" (uuid 322d5d95-a363-4621-b4e8-fd52cf60ea28))
     (instances
-      (project "d-lev_afe-antenna"
+      (project "d-lev-afe"
         (path "/3b0ead2a-6fae-4ae2-8192-98c9e26989ec"
           (reference "#PWR015") (unit 1)
         )
@@ -2608,7 +2560,7 @@
     )
     (pin "1" (uuid 0819f59e-4ce3-4e3e-a50a-eed4f643b022))
     (instances
-      (project "d-lev_afe-antenna"
+      (project "d-lev-afe"
         (path "/3b0ead2a-6fae-4ae2-8192-98c9e26989ec"
           (reference "#PWR02") (unit 1)
         )
@@ -2646,7 +2598,7 @@
     (pin "14" (uuid 8a11e8b6-5de8-4810-9d3e-48c802c7a1bc))
     (pin "7" (uuid 4b1105bb-e8c7-4659-b1b7-22d64061e4c3))
     (instances
-      (project "d-lev_afe-antenna"
+      (project "d-lev-afe"
         (path "/3b0ead2a-6fae-4ae2-8192-98c9e26989ec"
           (reference "U1") (unit 1)
         )
@@ -2671,7 +2623,7 @@
     )
     (pin "1" (uuid f20efac8-0a29-4820-8624-bcc8e98791ee))
     (instances
-      (project "d-lev_afe-antenna"
+      (project "d-lev-afe"
         (path "/3b0ead2a-6fae-4ae2-8192-98c9e26989ec"
           (reference "#PWR020") (unit 1)
         )
@@ -2696,7 +2648,7 @@
     )
     (pin "1" (uuid bc096ce4-ab09-4d51-b212-aba858e5badc))
     (instances
-      (project "d-lev_afe-antenna"
+      (project "d-lev-afe"
         (path "/3b0ead2a-6fae-4ae2-8192-98c9e26989ec"
           (reference "#PWR014") (unit 1)
         )
@@ -2734,7 +2686,7 @@
     (pin "14" (uuid 787c6802-d53d-47be-bc5a-68507c1c2bfa))
     (pin "7" (uuid f0fd657c-8a3d-4c8a-a7b5-e05cf6b0501e))
     (instances
-      (project "d-lev_afe-antenna"
+      (project "d-lev-afe"
         (path "/3b0ead2a-6fae-4ae2-8192-98c9e26989ec"
           (reference "U1") (unit 3)
         )
@@ -2759,7 +2711,7 @@
     )
     (pin "1" (uuid a7ec96af-1d9d-4aba-a645-7950e7681221))
     (instances
-      (project "d-lev_afe-antenna"
+      (project "d-lev-afe"
         (path "/3b0ead2a-6fae-4ae2-8192-98c9e26989ec"
           (reference "H3") (unit 1)
         )
@@ -2791,7 +2743,7 @@
     (pin "7" (uuid 2ddb66ee-66dd-4a64-9b30-74696655887c))
     (pin "8" (uuid 32c97704-c157-484a-9152-c5933445c614))
     (instances
-      (project "d-lev_afe-antenna"
+      (project "d-lev-afe"
         (path "/3b0ead2a-6fae-4ae2-8192-98c9e26989ec"
           (reference "J1") (unit 1)
         )
@@ -2829,7 +2781,7 @@
     (pin "14" (uuid 8b762a27-7b9d-438b-80fe-0836386f9f7b))
     (pin "7" (uuid fafdecb4-8ba4-44b7-ad7b-3479ac953db0))
     (instances
-      (project "d-lev_afe-antenna"
+      (project "d-lev-afe"
         (path "/3b0ead2a-6fae-4ae2-8192-98c9e26989ec"
           (reference "U1") (unit 4)
         )
@@ -2855,7 +2807,7 @@
     (pin "1" (uuid 53cab7d1-e4a4-49ee-a451-4d954aa1d405))
     (pin "2" (uuid 960bd4e7-46e2-4a3e-8ecd-0737c9a00619))
     (instances
-      (project "d-lev_afe-antenna"
+      (project "d-lev-afe"
         (path "/3b0ead2a-6fae-4ae2-8192-98c9e26989ec"
           (reference "C7") (unit 1)
         )
@@ -2880,7 +2832,7 @@
     )
     (pin "1" (uuid f07e0fbf-88df-4690-91fa-97028390a489))
     (instances
-      (project "d-lev_afe-antenna"
+      (project "d-lev-afe"
         (path "/3b0ead2a-6fae-4ae2-8192-98c9e26989ec"
           (reference "#PWR011") (unit 1)
         )
@@ -2910,7 +2862,7 @@
     (pin "5" (uuid 7f7d4fec-2e79-4258-87c4-352d588126d7))
     (pin "6" (uuid a9142621-6569-4acc-8d6a-e4b0688becb0))
     (instances
-      (project "d-lev_afe-antenna"
+      (project "d-lev-afe"
         (path "/3b0ead2a-6fae-4ae2-8192-98c9e26989ec"
           (reference "U3") (unit 1)
         )
@@ -2936,7 +2888,7 @@
     (pin "1" (uuid a8f62b4e-f596-4e7c-8c6d-d6fa98b73d50))
     (pin "2" (uuid ac8458b0-04d4-4331-9ded-3fc67141a318))
     (instances
-      (project "d-lev_afe-antenna"
+      (project "d-lev-afe"
         (path "/3b0ead2a-6fae-4ae2-8192-98c9e26989ec"
           (reference "R4") (unit 1)
         )
@@ -2961,7 +2913,7 @@
     )
     (pin "1" (uuid 41140aa8-9a8a-4896-80b9-e67273c31c27))
     (instances
-      (project "d-lev_afe-antenna"
+      (project "d-lev-afe"
         (path "/3b0ead2a-6fae-4ae2-8192-98c9e26989ec"
           (reference "#PWR08") (unit 1)
         )
@@ -2987,7 +2939,7 @@
     (pin "1" (uuid 4099ba3a-bb22-49bf-88e6-1fa9c7ff798a))
     (pin "2" (uuid 8ed090a2-0ce3-4fb0-8a85-4c2b83335fa6))
     (instances
-      (project "d-lev_afe-antenna"
+      (project "d-lev-afe"
         (path "/3b0ead2a-6fae-4ae2-8192-98c9e26989ec"
           (reference "R2") (unit 1)
         )
@@ -3012,7 +2964,7 @@
     )
     (pin "1" (uuid 3ec0f70e-2429-43c2-8801-6359425115dd))
     (instances
-      (project "d-lev_afe-antenna"
+      (project "d-lev-afe"
         (path "/3b0ead2a-6fae-4ae2-8192-98c9e26989ec"
           (reference "#PWR05") (unit 1)
         )
@@ -3037,7 +2989,7 @@
     )
     (pin "1" (uuid e1c5701f-ff5a-40f4-87d4-6e5d0fab446f))
     (instances
-      (project "d-lev_afe-antenna"
+      (project "d-lev-afe"
         (path "/3b0ead2a-6fae-4ae2-8192-98c9e26989ec"
           (reference "#PWR018") (unit 1)
         )
@@ -3075,7 +3027,7 @@
     (pin "14" (uuid b6bf8c48-dbae-491e-a0b1-29ba34bc0662))
     (pin "7" (uuid 1dabd962-1d0f-4725-a46f-2a410f567c46))
     (instances
-      (project "d-lev_afe-antenna"
+      (project "d-lev-afe"
         (path "/3b0ead2a-6fae-4ae2-8192-98c9e26989ec"
           (reference "U1") (unit 7)
         )
@@ -3101,7 +3053,7 @@
     (pin "1" (uuid 02e4c157-057c-4249-88b3-69176ce6622f))
     (pin "2" (uuid 1a40ac28-021e-4af6-a1c4-7e253a5c1e73))
     (instances
-      (project "d-lev_afe-antenna"
+      (project "d-lev-afe"
         (path "/3b0ead2a-6fae-4ae2-8192-98c9e26989ec"
           (reference "L1") (unit 1)
         )
@@ -3126,7 +3078,7 @@
     )
     (pin "1" (uuid 64cc6435-4ca4-4579-9f8e-8ee47ab9c9a3))
     (instances
-      (project "d-lev_afe-antenna"
+      (project "d-lev-afe"
         (path "/3b0ead2a-6fae-4ae2-8192-98c9e26989ec"
           (reference "#PWR04") (unit 1)
         )

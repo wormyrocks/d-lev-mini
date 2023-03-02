@@ -1185,7 +1185,7 @@
     (property "Value" "LCD-20X4B" (at 149.86 83.82 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "LCD_LCD-20X4B" (at 149.86 102.87 0)
+    (property "Footprint" "d-lev:ERM2004-1" (at 149.86 102.87 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (at 149.86 102.87 0)
