@@ -599,44 +599,40 @@
       "FPGA"
     ],
     [
-      "a7ad5bc5-58e2-407c-aeb8-75270556c3dc",
-      "Encoders"
+      "0349b78d-0ccc-461e-9db6-1e1bc7d0ccab",
+      "encoder1"
     ],
     [
-      "9ccc56c9-9523-46d1-9ad9-e4d08f371f5e",
-      "Encoder1"
+      "cff6c4c6-3203-4cdb-bbe2-98a8d2d1dddc",
+      "encoder"
     ],
     [
-      "5d6bc723-1869-4642-929e-fa1326480434",
-      "Encoder2"
-    ],
-    [
-      "816043c2-16e4-4f26-9b18-3b23096ae175",
-      "Encoder0"
+      "9838bf98-d031-4cc3-a292-df93f66081f4",
+      "encoder2"
     ],
     [
       "2925ec6e-2aba-4938-a246-f8cb5ac94723",
       "LCD"
     ],
     [
-      "d6350598-4510-461a-b2bb-9570f396d786",
-      "Encoder3"
+      "ecc3d972-8081-426f-8ae3-c9695eae3f84",
+      "encoder3"
     ],
     [
-      "9ab3c766-c050-4f7e-b373-167f163413ce",
-      "Encoder5"
+      "15bc2a13-566b-404a-831d-584fbcfc8c8b",
+      "encoder4"
     ],
     [
-      "b331e7fd-ed6f-4734-b496-1a28334799f6",
-      "Encoder6"
+      "896930f5-d9a7-4b6b-9e53-0b8ea5eb94db",
+      "encoder7"
     ],
     [
-      "f435bc51-8636-4c05-ae5b-3d8f103991ae",
-      "Encoder4"
+      "010066a8-ac88-4d5d-a4fc-14579e6b5c08",
+      "encoder5"
     ],
     [
-      "1de4402c-c1c7-49da-9f7f-3e9fe2db533e",
-      "Encoder7"
+      "e62df110-b9e6-4d89-9c0c-e50e20fc8385",
+      "encoder6"
     ]
   ],
   "text_variables": {}
