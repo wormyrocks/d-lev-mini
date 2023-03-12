@@ -540,7 +540,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../../../../../Desktop/dlev-mini.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
