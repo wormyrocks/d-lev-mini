@@ -27,7 +27,7 @@ CapType = 0;	// [0:Flat, 1:Recessed, 2:Dome]
 TimerKnob=0;	// [0:No, 1:Yes]
 
 // Would you like a divot on the top to indicate direction?
-Pointer1 = 1;	// [0:No, 1:Yes]
+Pointer1 = 0;	// [0:No, 1:Yes]
 
 // Would you like a line (pointer) on the front to indicate direction?
 Pointer2 = 0;	// [0:No, 1:Yes]
@@ -55,9 +55,24 @@ ShaftDiameter = 10;
 
 // Would you like a notch in the shaft?  It can be used for a press-on type knob (rather than using a setscrew).  (ShaftLength must be non-zero.)
 NotchedShaft = 1;	// [0:No, 1:Yes]
-
-
-
+module EtchPattern() {    
+    EtchDepth=.3;
+    EtchWidth=.5;
+    EtchLength = KnobDiameter/2-8;
+    EtchInset=6;
+    NumEtches=12;
+    EvenOffset=3;
+    EtchAngle=360/NumEtches;
+    for (i=[0:NumEtches]) {
+        IsEven = (i%2==0);
+        EtchInset_ = EtchInset + (IsEven ? EvenOffset : 0);
+        rotate(a=[0,0,i*EtchAngle]) translate([EtchInset_,-EtchWidth/2,KnobHeight-EtchDepth]){
+            cube([EtchLength,EtchWidth,EtchDepth+.1]);
+            translate([0,EtchWidth/2,EtchDepth])sphere(EtchWidth/2);
+        }
+    }
+    translate([0,0,KnobHeight])sphere(1);
+}
 //////////////////////////
 //Advanced settings
 //////////////////////////
@@ -87,7 +102,7 @@ TaperAngle=asin(KnobHeight / (sqrt(pow(KnobHeight, 2) +
 
 DivotRadius = KnobMinorRadius*.4;
 
-
+module MakeKnob() {
 union()
 {
 translate([0, 0, (ShaftLength==0)? 0 : ShaftLength-0.001])
@@ -223,6 +238,7 @@ if (ShaftLength>0)
 						r=ScrewHoleDiameter/2, $fn=20, center=true);
 	}
 }
-
-
-
+}
+difference(){
+    MakeKnob(); EtchPattern();
+    };
