@@ -723,7 +723,7 @@
   (symbol (lib_id "Device:C_Small") (at 161.925 112.395 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5632ccff-598f-4bb9-8ec8-8f1dfdd7f680)
-    (property "Reference" "C19" (at 165.1 111.7663 0)
+    (property "Reference" "C4" (at 165.1 111.7663 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" ".01u" (at 165.1 114.3063 0)
@@ -740,28 +740,28 @@
     (instances
       (project "dlev-mini"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/cff6c4c6-3203-4cdb-bbe2-98a8d2d1dddc"
-          (reference "C19") (unit 1)
+          (reference "C4") (unit 1)
         )
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/0349b78d-0ccc-461e-9db6-1e1bc7d0ccab"
           (reference "C2") (unit 1)
         )
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/9838bf98-d031-4cc3-a292-df93f66081f4"
-          (reference "C4") (unit 1)
-        )
-        (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/ecc3d972-8081-426f-8ae3-c9695eae3f84"
           (reference "C6") (unit 1)
         )
+        (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/ecc3d972-8081-426f-8ae3-c9695eae3f84"
+          (reference "C8") (unit 1)
+        )
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/15bc2a13-566b-404a-831d-584fbcfc8c8b"
-          (reference "C13") (unit 1)
+          (reference "C10") (unit 1)
         )
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/010066a8-ac88-4d5d-a4fc-14579e6b5c08"
-          (reference "C17") (unit 1)
+          (reference "C14") (unit 1)
         )
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/e62df110-b9e6-4d89-9c0c-e50e20fc8385"
-          (reference "C21") (unit 1)
+          (reference "C16") (unit 1)
         )
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/896930f5-d9a7-4b6b-9e53-0b8ea5eb94db"
-          (reference "C15") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -872,7 +872,7 @@
   (symbol (lib_id "Device:C_Small") (at 157.48 109.855 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8ef0fe5a-cc2f-4859-bdd7-7804e8a0ea6b)
-    (property "Reference" "C18" (at 154.94 109.2263 0)
+    (property "Reference" "C3" (at 154.94 109.2263 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" ".01u" (at 154.94 111.7663 0)
@@ -889,28 +889,28 @@
     (instances
       (project "dlev-mini"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/cff6c4c6-3203-4cdb-bbe2-98a8d2d1dddc"
-          (reference "C18") (unit 1)
+          (reference "C3") (unit 1)
         )
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/0349b78d-0ccc-461e-9db6-1e1bc7d0ccab"
           (reference "C1") (unit 1)
         )
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/9838bf98-d031-4cc3-a292-df93f66081f4"
-          (reference "C3") (unit 1)
-        )
-        (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/ecc3d972-8081-426f-8ae3-c9695eae3f84"
           (reference "C5") (unit 1)
         )
+        (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/ecc3d972-8081-426f-8ae3-c9695eae3f84"
+          (reference "C7") (unit 1)
+        )
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/15bc2a13-566b-404a-831d-584fbcfc8c8b"
-          (reference "C12") (unit 1)
+          (reference "C9") (unit 1)
         )
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/010066a8-ac88-4d5d-a4fc-14579e6b5c08"
-          (reference "C16") (unit 1)
+          (reference "C13") (unit 1)
         )
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/e62df110-b9e6-4d89-9c0c-e50e20fc8385"
-          (reference "C20") (unit 1)
+          (reference "C15") (unit 1)
         )
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/896930f5-d9a7-4b6b-9e53-0b8ea5eb94db"
-          (reference "C14") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -919,7 +919,7 @@
   (symbol (lib_id "Device:R_Pack04") (at 176.53 104.775 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f2c7cc9b-1277-4ea9-9373-3a9721e8a3ed)
-    (property "Reference" "RN7" (at 176.53 96.52 90)
+    (property "Reference" "RN2" (at 176.53 96.52 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4.7k" (at 176.53 99.06 90)
@@ -942,28 +942,28 @@
     (instances
       (project "dlev-mini"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/cff6c4c6-3203-4cdb-bbe2-98a8d2d1dddc"
-          (reference "RN7") (unit 1)
+          (reference "RN2") (unit 1)
         )
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/0349b78d-0ccc-461e-9db6-1e1bc7d0ccab"
           (reference "RN1") (unit 1)
         )
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/9838bf98-d031-4cc3-a292-df93f66081f4"
-          (reference "RN2") (unit 1)
-        )
-        (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/ecc3d972-8081-426f-8ae3-c9695eae3f84"
           (reference "RN3") (unit 1)
         )
-        (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/15bc2a13-566b-404a-831d-584fbcfc8c8b"
+        (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/ecc3d972-8081-426f-8ae3-c9695eae3f84"
           (reference "RN4") (unit 1)
         )
+        (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/15bc2a13-566b-404a-831d-584fbcfc8c8b"
+          (reference "RN5") (unit 1)
+        )
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/010066a8-ac88-4d5d-a4fc-14579e6b5c08"
-          (reference "RN6") (unit 1)
+          (reference "RN7") (unit 1)
         )
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/e62df110-b9e6-4d89-9c0c-e50e20fc8385"
           (reference "RN8") (unit 1)
         )
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/896930f5-d9a7-4b6b-9e53-0b8ea5eb94db"
-          (reference "RN5") (unit 1)
+          (reference "RN6") (unit 1)
         )
       )
     )

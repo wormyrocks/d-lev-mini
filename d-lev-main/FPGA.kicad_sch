@@ -1213,7 +1213,7 @@
     (property "Value" "AC608" (at 140.335 60.8074 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "d-lev:ac608" (at 49.53 60.325 0)
+    (property "Footprint" "d-lev:ac608-toponly" (at 49.53 60.325 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 49.53 60.325 0)
