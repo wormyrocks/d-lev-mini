@@ -1,0 +1,97 @@
+03-14 19:19:13 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 359:Plugin executed on: 'linux'
+03-14 19:19:13 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 360:Plugin executed with python version: '3.10.6 (main, Nov 10 2011, 15:00:00) [GCC 12.2.0]'
+03-14 19:19:13 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 361:KiCad build version: 7.0.0
+03-14 19:19:13 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 362:Plugin version: 2.0.7
+03-14 19:19:13 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 363:Frame repr: <wx._core.Frame object at 0x7f4d8c204f70>
+03-14 19:19:13 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 387:Preparing replicator with SW2 as a reference
+03-14 19:19:13 com_github_MitjaNemec_ReplicateLayout.replicate_layout 113:getting a list of all footprints on board
+03-14 19:19:13 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 435:source anchor footprint is 'SW2'
+Located on: ['encoder']
+With filenames: ['SingleEncoder.kicad_sch']
+With sheet_id:['encoder']
+03-14 19:19:13 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 442:Corresponding footprints are 
+[('SW7', ['encoder5']), ('SW1', ['encoder1']), ('SW5', ['encoder4']), ('SW4', ['encoder3']), ('SW2', ['encoder']), ('SW6', ['encoder7']), ('SW3', ['encoder2']), ('SW8', ['encoder6'])]
+03-14 19:19:13 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 454:Showing dialog
+03-14 19:19:13 com_github_MitjaNemec_ReplicateLayout.replicate_layout 384:constructing a list of sheets suitable for replication on level:'encoder', file:'SingleEncoder.kicad_sch'
+03-14 19:19:13 com_github_MitjaNemec_ReplicateLayout.replicate_layout 421:suitable sheets are:[['encoder1'], ['encoder2'], ['encoder3'], ['encoder4'], ['encoder5'], ['encoder6'], ['encoder7']]
+03-14 19:19:13 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1332:Level selected: ['encoder']
+03-14 19:19:13 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1167:Filtering list of tracks
+03-14 19:19:13 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 460:Toolbar position: wx.Point(5406, 104)
+03-14 19:19:13 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 465:Dialog position: wx.Point(5042, 104)
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 384:constructing a list of sheets suitable for replication on level:'encoder', file:'SingleEncoder.kicad_sch'
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 421:suitable sheets are:[['encoder1'], ['encoder2'], ['encoder3'], ['encoder4'], ['encoder5'], ['encoder6'], ['encoder7']]
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 207:Replicating layout
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 230:Starting replication of sheets: [['encoder1'], ['encoder2'], ['encoder3'], ['encoder4'], ['encoder5'], ['encoder6'], ['encoder7']]
+on level: ['encoder']
+with tracks=True, zone=True, text=True, text=True, intersecting=False, remove=False, locked footprints=False, group_only=False
+03-14 19:19:14 root 299:updating GUI message: 'Preparing for replication'
+03-14 19:19:14 root 304:updating GUI with: 0
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 300:Getting the list of source footprints
+03-14 19:19:14 root 304:updating GUI with: 0
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 310:Getting the list of all the remaining footprints
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 317:Getting source tracks
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1167:Filtering list of tracks
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 321:Getting source zones
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 325:Getting source text items
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 329:Getting source drawing items
+03-14 19:19:14 root 299:updating GUI message: 'Replicating footprints'
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 724:Replicating footprints
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['encoder1']
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['encoder2']
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['encoder3']
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['encoder4']
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['encoder5']
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['encoder6']
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['encoder7']
+03-14 19:19:14 root 299:updating GUI message: 'Replicating tracks'
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 889:Replicating tracks
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['encoder1']
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['encoder1'] :[('enc_1.s', 'enc_2.s'), ('unconnected-(SW2-PadMP6)', 'unconnected-(SW1-PadMP6)'), ('+3V3', '+3V3'), ('unconnected-(SW2-PadMP5)', 'unconnected-(SW1-PadMP5)'), ('unconnected-(SW2-PadMP4)', 'unconnected-(SW1-PadMP4)'), ('enc_1.a', 'enc_2.a'), ('', ''), ('/encoder/A1', '/encoder1/A1'), ('unconnected-(SW2-PadMP1)', 'unconnected-(SW1-PadMP1)'), ('GND', 'GND'), ('/encoder/B1', '/encoder1/B1'), ('unconnected-(SW2-PadMP2)', 'unconnected-(SW1-PadMP2)'), ('unconnected-(SW2-PadMP3)', 'unconnected-(SW1-PadMP3)'), ('enc_1.b', 'enc_2.b')]
+03-14 19:19:14 root 304:updating GUI with: 0
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['encoder2']
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['encoder2'] :[('enc_1.b', 'enc_3.b'), ('+3V3', '+3V3'), ('/encoder/B1', '/encoder2/B1'), ('', ''), ('unconnected-(SW2-PadMP4)', 'unconnected-(SW3-PadMP4)'), ('unconnected-(SW2-PadMP3)', 'unconnected-(SW3-PadMP3)'), ('unconnected-(SW2-PadMP6)', 'unconnected-(SW3-PadMP6)'), ('GND', 'GND'), ('enc_1.a', 'enc_3.a'), ('unconnected-(SW2-PadMP2)', 'unconnected-(SW3-PadMP2)'), ('unconnected-(SW2-PadMP5)', 'unconnected-(SW3-PadMP5)'), ('unconnected-(SW2-PadMP1)', 'unconnected-(SW3-PadMP1)'), ('enc_1.s', 'enc_3.s'), ('/encoder/A1', '/encoder2/A1')]
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['encoder3']
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['encoder3'] :[('unconnected-(SW2-PadMP6)', 'unconnected-(SW4-PadMP6)'), ('+3V3', '+3V3'), ('unconnected-(SW2-PadMP3)', 'unconnected-(SW4-PadMP3)'), ('', ''), ('unconnected-(SW2-PadMP2)', 'unconnected-(SW4-PadMP2)'), ('enc_1.a', 'enc_4.a'), ('unconnected-(SW2-PadMP4)', 'unconnected-(SW4-PadMP4)'), ('unconnected-(SW2-PadMP1)', 'unconnected-(SW4-PadMP1)'), ('GND', 'GND'), ('/encoder/B1', '/encoder3/B1'), ('enc_1.b', 'enc_4.b'), ('unconnected-(SW2-PadMP5)', 'unconnected-(SW4-PadMP5)'), ('enc_1.s', 'enc_4.s'), ('/encoder/A1', '/encoder3/A1')]
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['encoder4']
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['encoder4'] :[('+3V3', '+3V3'), ('enc_1.a', 'enc_6.a'), ('enc_1.s', 'enc_6.s'), ('', ''), ('unconnected-(SW2-PadMP2)', 'unconnected-(SW5-PadMP2)'), ('unconnected-(SW2-PadMP4)', 'unconnected-(SW5-PadMP4)'), ('enc_1.b', 'enc_6.b'), ('/encoder/B1', '/encoder4/B1'), ('unconnected-(SW2-PadMP5)', 'unconnected-(SW5-PadMP5)'), ('GND', 'GND'), ('/encoder/A1', '/encoder4/A1'), ('unconnected-(SW2-PadMP3)', 'unconnected-(SW5-PadMP3)'), ('unconnected-(SW2-PadMP6)', 'unconnected-(SW5-PadMP6)'), ('unconnected-(SW2-PadMP1)', 'unconnected-(SW5-PadMP1)')]
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['encoder5']
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['encoder5'] :[('/encoder/A1', '/encoder5/A1'), ('+3V3', '+3V3'), ('unconnected-(SW2-PadMP2)', 'unconnected-(SW7-PadMP2)'), ('unconnected-(SW2-PadMP1)', 'unconnected-(SW7-PadMP1)'), ('unconnected-(SW2-PadMP4)', 'unconnected-(SW7-PadMP4)'), ('', ''), ('unconnected-(SW2-PadMP3)', 'unconnected-(SW7-PadMP3)'), ('enc_1.b', 'enc_7.b'), ('GND', 'GND'), ('enc_1.a', 'enc_7.a'), ('unconnected-(SW2-PadMP6)', 'unconnected-(SW7-PadMP6)'), ('/encoder/B1', '/encoder5/B1'), ('enc_1.s', 'enc_7.s'), ('unconnected-(SW2-PadMP5)', 'unconnected-(SW7-PadMP5)')]
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['encoder6']
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['encoder6'] :[('+3V3', '+3V3'), ('/encoder/B1', '/encoder6/B1'), ('unconnected-(SW2-PadMP6)', 'unconnected-(SW8-PadMP6)'), ('', ''), ('unconnected-(SW2-PadMP3)', 'unconnected-(SW8-PadMP3)'), ('unconnected-(SW2-PadMP5)', 'unconnected-(SW8-PadMP5)'), ('enc_1.a', 'enc_8.a'), ('unconnected-(SW2-PadMP4)', 'unconnected-(SW8-PadMP4)'), ('unconnected-(SW2-PadMP1)', 'unconnected-(SW8-PadMP1)'), ('/encoder/A1', '/encoder6/A1'), ('GND', 'GND'), ('unconnected-(SW2-PadMP2)', 'unconnected-(SW8-PadMP2)'), ('enc_1.b', 'enc_8.b'), ('enc_1.s', 'enc_8.s')]
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['encoder7']
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['encoder7'] :[('unconnected-(SW2-PadMP3)', 'unconnected-(SW6-PadMP3)'), ('unconnected-(SW2-PadMP2)', 'unconnected-(SW6-PadMP2)'), ('+3V3', '+3V3'), ('/encoder/B1', '/encoder7/B1'), ('/encoder/A1', '/encoder7/A1'), ('unconnected-(SW2-PadMP5)', 'unconnected-(SW6-PadMP5)'), ('unconnected-(SW2-PadMP1)', 'unconnected-(SW6-PadMP1)'), ('', ''), ('enc_1.a', 'enc_5.a'), ('unconnected-(SW2-PadMP6)', 'unconnected-(SW6-PadMP6)'), ('enc_1.s', 'enc_5.s'), ('GND', 'GND'), ('unconnected-(SW2-PadMP4)', 'unconnected-(SW6-PadMP4)'), ('enc_1.b', 'enc_5.b')]
+03-14 19:19:14 root 299:updating GUI message: 'Replicating zones'
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 947:Replicating zones
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['encoder1']
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['encoder1'] :[('enc_1.s', 'enc_2.s'), ('unconnected-(SW2-PadMP6)', 'unconnected-(SW1-PadMP6)'), ('+3V3', '+3V3'), ('unconnected-(SW2-PadMP5)', 'unconnected-(SW1-PadMP5)'), ('unconnected-(SW2-PadMP4)', 'unconnected-(SW1-PadMP4)'), ('enc_1.a', 'enc_2.a'), ('', ''), ('/encoder/A1', '/encoder1/A1'), ('unconnected-(SW2-PadMP1)', 'unconnected-(SW1-PadMP1)'), ('GND', 'GND'), ('/encoder/B1', '/encoder1/B1'), ('unconnected-(SW2-PadMP2)', 'unconnected-(SW1-PadMP2)'), ('unconnected-(SW2-PadMP3)', 'unconnected-(SW1-PadMP3)'), ('enc_1.b', 'enc_2.b')]
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['encoder2']
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['encoder2'] :[('enc_1.b', 'enc_3.b'), ('+3V3', '+3V3'), ('/encoder/B1', '/encoder2/B1'), ('', ''), ('unconnected-(SW2-PadMP4)', 'unconnected-(SW3-PadMP4)'), ('unconnected-(SW2-PadMP3)', 'unconnected-(SW3-PadMP3)'), ('unconnected-(SW2-PadMP6)', 'unconnected-(SW3-PadMP6)'), ('GND', 'GND'), ('enc_1.a', 'enc_3.a'), ('unconnected-(SW2-PadMP2)', 'unconnected-(SW3-PadMP2)'), ('unconnected-(SW2-PadMP5)', 'unconnected-(SW3-PadMP5)'), ('unconnected-(SW2-PadMP1)', 'unconnected-(SW3-PadMP1)'), ('enc_1.s', 'enc_3.s'), ('/encoder/A1', '/encoder2/A1')]
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['encoder3']
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['encoder3'] :[('unconnected-(SW2-PadMP6)', 'unconnected-(SW4-PadMP6)'), ('+3V3', '+3V3'), ('unconnected-(SW2-PadMP3)', 'unconnected-(SW4-PadMP3)'), ('', ''), ('unconnected-(SW2-PadMP2)', 'unconnected-(SW4-PadMP2)'), ('enc_1.a', 'enc_4.a'), ('unconnected-(SW2-PadMP4)', 'unconnected-(SW4-PadMP4)'), ('unconnected-(SW2-PadMP1)', 'unconnected-(SW4-PadMP1)'), ('GND', 'GND'), ('/encoder/B1', '/encoder3/B1'), ('enc_1.b', 'enc_4.b'), ('unconnected-(SW2-PadMP5)', 'unconnected-(SW4-PadMP5)'), ('enc_1.s', 'enc_4.s'), ('/encoder/A1', '/encoder3/A1')]
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['encoder4']
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['encoder4'] :[('+3V3', '+3V3'), ('enc_1.a', 'enc_6.a'), ('enc_1.s', 'enc_6.s'), ('', ''), ('unconnected-(SW2-PadMP2)', 'unconnected-(SW5-PadMP2)'), ('unconnected-(SW2-PadMP4)', 'unconnected-(SW5-PadMP4)'), ('enc_1.b', 'enc_6.b'), ('/encoder/B1', '/encoder4/B1'), ('unconnected-(SW2-PadMP5)', 'unconnected-(SW5-PadMP5)'), ('GND', 'GND'), ('/encoder/A1', '/encoder4/A1'), ('unconnected-(SW2-PadMP3)', 'unconnected-(SW5-PadMP3)'), ('unconnected-(SW2-PadMP6)', 'unconnected-(SW5-PadMP6)'), ('unconnected-(SW2-PadMP1)', 'unconnected-(SW5-PadMP1)')]
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['encoder5']
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['encoder5'] :[('/encoder/A1', '/encoder5/A1'), ('+3V3', '+3V3'), ('unconnected-(SW2-PadMP2)', 'unconnected-(SW7-PadMP2)'), ('unconnected-(SW2-PadMP1)', 'unconnected-(SW7-PadMP1)'), ('unconnected-(SW2-PadMP4)', 'unconnected-(SW7-PadMP4)'), ('', ''), ('unconnected-(SW2-PadMP3)', 'unconnected-(SW7-PadMP3)'), ('enc_1.b', 'enc_7.b'), ('GND', 'GND'), ('enc_1.a', 'enc_7.a'), ('unconnected-(SW2-PadMP6)', 'unconnected-(SW7-PadMP6)'), ('/encoder/B1', '/encoder5/B1'), ('enc_1.s', 'enc_7.s'), ('unconnected-(SW2-PadMP5)', 'unconnected-(SW7-PadMP5)')]
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['encoder6']
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['encoder6'] :[('+3V3', '+3V3'), ('/encoder/B1', '/encoder6/B1'), ('unconnected-(SW2-PadMP6)', 'unconnected-(SW8-PadMP6)'), ('', ''), ('unconnected-(SW2-PadMP3)', 'unconnected-(SW8-PadMP3)'), ('unconnected-(SW2-PadMP5)', 'unconnected-(SW8-PadMP5)'), ('enc_1.a', 'enc_8.a'), ('unconnected-(SW2-PadMP4)', 'unconnected-(SW8-PadMP4)'), ('unconnected-(SW2-PadMP1)', 'unconnected-(SW8-PadMP1)'), ('/encoder/A1', '/encoder6/A1'), ('GND', 'GND'), ('unconnected-(SW2-PadMP2)', 'unconnected-(SW8-PadMP2)'), ('enc_1.b', 'enc_8.b'), ('enc_1.s', 'enc_8.s')]
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['encoder7']
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['encoder7'] :[('unconnected-(SW2-PadMP3)', 'unconnected-(SW6-PadMP3)'), ('unconnected-(SW2-PadMP2)', 'unconnected-(SW6-PadMP2)'), ('+3V3', '+3V3'), ('/encoder/B1', '/encoder7/B1'), ('/encoder/A1', '/encoder7/A1'), ('unconnected-(SW2-PadMP5)', 'unconnected-(SW6-PadMP5)'), ('unconnected-(SW2-PadMP1)', 'unconnected-(SW6-PadMP1)'), ('', ''), ('enc_1.a', 'enc_5.a'), ('unconnected-(SW2-PadMP6)', 'unconnected-(SW6-PadMP6)'), ('enc_1.s', 'enc_5.s'), ('GND', 'GND'), ('unconnected-(SW2-PadMP4)', 'unconnected-(SW6-PadMP4)'), ('enc_1.b', 'enc_5.b')]
+03-14 19:19:14 root 299:updating GUI message: 'Replicating text'
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1025:Replicating text
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['encoder1']
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['encoder2']
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['encoder3']
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['encoder4']
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['encoder5']
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['encoder6']
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['encoder7']
+03-14 19:19:14 root 299:updating GUI message: 'Replicating drawings'
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1065:Replicating drawings
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['encoder1']
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['encoder2']
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['encoder3']
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['encoder4']
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['encoder5']
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['encoder6']
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['encoder7']
+03-14 19:19:14 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 223:Replication complete
