@@ -992,7 +992,7 @@
     (uuid 97f4cd7a-16af-465a-9b7a-7291ea2e9af4)
   )
 
-  (hierarchical_label "lcd{data[0..3],rs,e,pwm}" (shape input) (at 222.25 107.95 0) (fields_autoplaced)
+  (hierarchical_label "lcd{rs,e,pwm,data[0..3]}" (shape input) (at 222.25 107.95 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 0b0c9e12-892d-4d47-b6be-2abd52f0e86a)
   )

@@ -891,8 +891,8 @@
     )
   )
 
-  (bus_alias "lcdpins" (members "lcd{rs,e,pwm,data[0..3]}"))
   (bus_alias "tuner" (members "scl" "sda" "oe" "le"))
+  (bus_alias "lcdpins" (members "lcd{rs,e,pwm,data[0..3]}"))
 
   (wire (pts (xy 218.44 151.13) (xy 226.06 151.13))
     (stroke (width 0) (type default))
