@@ -1447,7 +1447,7 @@
     (property "Value" ".1u" (at 90.17 120.0213 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 87.63 118.11 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 87.63 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 87.63 118.11 0)
