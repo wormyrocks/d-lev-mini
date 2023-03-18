@@ -928,6 +928,12 @@
     (uuid fba93475-c73c-4a8c-8f48-f3e65e0bbd7f)
   )
 
+  (text "To do: Triple check you're not swapping UART_RX/TX"
+    (at 38.1 50.165 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 61e16a60-c8d0-445b-a6bb-d9ef2152a2fa)
+  )
+
   (label "ICSP.SCK" (at 208.915 88.9 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 01d9c358-ae78-4ef7-9fb3-49619e60b9ee)
