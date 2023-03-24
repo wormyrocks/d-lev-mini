@@ -2413,6 +2413,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 997f0b61-0951-49d7-86bf-442a994b69fe)
   )
+  (text "Todo: should LCD_PWM be referenced to VLCD rather than 3.3V?"
+    (at 17.145 93.345 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 9e0d9857-756c-49bd-9186-82ea1e191b83)
+  )
   (text "I^{2}C" (at 200.787 -38.354 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a2823920-32a6-44f9-aed1-fc15c8914815)
