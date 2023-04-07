@@ -73,7 +73,7 @@
   (pad "4" smd roundrect (at 1 -2.85) (size 1 3.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 29967669-0c2a-4b24-9377-592ea3048a89))
   (pad "5" smd roundrect (at 3 -2.85) (size 1 3.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 8db95a41-0288-4aea-8312-56a07c88cf85))
   (pad "6" smd roundrect (at 5 -2.85) (size 1 3.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp e794d442-483b-4a70-b403-e140723a2f64))
-  (pad "MP" smd roundrect (at -7.35 2.9) (size 1.5 3.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.166667) (tstamp 490004c1-7ec7-4572-bb98-44ae46a46bf9))
+  (pad "MP1" smd roundrect (at -7.35 2.9) (size 1.5 3.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.166667) (tstamp 490004c1-7ec7-4572-bb98-44ae46a46bf9))
   (pad "MP2" smd roundrect (at 7.35 2.9) (size 1.5 3.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.166667) (tstamp 9d7213d2-ea29-4b9a-8985-ec39fb631a8e))
   (model "${KIPRJMOD}/../d-lev-libraries/lib_fp.pretty/3d/S6B-PH-SM4-TB.stp"
     (offset (xyz 0 -4.5 0))

@@ -632,7 +632,11 @@
     ],
     [
       "3541e65b-279c-4c86-bb5d-a70e0f4482b6",
-      "LDO"
+      "LDO4V5"
+    ],
+    [
+      "28d6ddd9-dddb-4aff-a9df-07c32cc83c7d",
+      "LDO3v3"
     ]
   ],
   "text_variables": {}

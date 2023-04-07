@@ -122,7 +122,7 @@
       )
       (pin passive line (at 0 -12.7 90) (length 3.048)
         (name "MountPin" (effects (font (size 1.27 1.27))))
-        (number "MP" (effects (font (size 1.27 1.27))))
+        (number "MP1" (effects (font (size 1.27 1.27))))
       )
       (pin passive line (at 0.635 -12.7 90) (length 3.048) hide
         (name "MountPin" (effects (font (size 1.27 1.27))))
@@ -232,13 +232,13 @@
         (name "Pin_8" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -15.24 90) (length 3.048) hide
-        (name "MountPin2" (effects (font (size 1.27 1.27))))
-        (number "9" (effects (font (size 1.27 1.27))))
-      )
       (pin passive line (at 0 -15.24 90) (length 3.048)
-        (name "MountPin" (effects (font (size 1.27 1.27))))
-        (number "MP" (effects (font (size 1.27 1.27))))
+        (name "MountPin1" (effects (font (size 1.27 1.27))))
+        (number "MP1" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 1.27 -15.24 90) (length 3.048) hide
+        (name "MountPin2" (effects (font (size 1.27 1.27))))
+        (number "MP2" (effects (font (size 1.27 1.27))))
       )
     )
   )
@@ -378,7 +378,7 @@
       )
       (pin passive line (at 0 -20.32 90) (length 3.048)
         (name "MountPin" (effects (font (size 1.27 1.27))))
-        (number "MP" (effects (font (size 1.27 1.27))))
+        (number "MP1" (effects (font (size 1.27 1.27))))
       )
       (pin passive line (at 0.635 -20.32 90) (length 3.048) hide
         (name "MountPin2" (effects (font (size 1.27 1.27))))
