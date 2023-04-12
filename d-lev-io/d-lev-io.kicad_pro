@@ -619,8 +619,8 @@
       "AVR"
     ],
     [
-      "b4182eb7-7b2a-4aa0-9e55-baea309aa9ba",
-      "MIDI"
+      "83e88c30-a90d-4699-98a4-5fb5b0c65049",
+      "LDO3v3"
     ],
     [
       "3dad21fa-fe4e-4134-9ebb-19883d6099d4",
@@ -629,14 +629,6 @@
     [
       "f19ba83a-ef5a-459f-9ba4-5cb53e267077",
       "Buck"
-    ],
-    [
-      "3541e65b-279c-4c86-bb5d-a70e0f4482b6",
-      "LDO4V5"
-    ],
-    [
-      "28d6ddd9-dddb-4aff-a9df-07c32cc83c7d",
-      "LDO3v3"
     ]
   ],
   "text_variables": {}

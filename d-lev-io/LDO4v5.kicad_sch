@@ -364,7 +364,7 @@
           (reference "C12") (unit 1)
         )
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed/3541e65b-279c-4c86-bb5d-a70e0f4482b6"
-          (reference "C13") (unit 1)
+          (reference "C20") (unit 1)
         )
       )
     )
@@ -396,7 +396,7 @@
           (reference "R14") (unit 1)
         )
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed/3541e65b-279c-4c86-bb5d-a70e0f4482b6"
-          (reference "R12") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
       (project "dlev-mini"
@@ -433,7 +433,7 @@
           (reference "C14") (unit 1)
         )
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed/3541e65b-279c-4c86-bb5d-a70e0f4482b6"
-          (reference "C15") (unit 1)
+          (reference "C22") (unit 1)
         )
       )
     )
@@ -465,7 +465,7 @@
           (reference "C13") (unit 1)
         )
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed/3541e65b-279c-4c86-bb5d-a70e0f4482b6"
-          (reference "C12") (unit 1)
+          (reference "C19") (unit 1)
         )
       )
     )
@@ -493,7 +493,7 @@
           (reference "#PWR026") (unit 1)
         )
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed/3541e65b-279c-4c86-bb5d-a70e0f4482b6"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
       (project "dlev-mini"
@@ -530,7 +530,7 @@
           (reference "C15") (unit 1)
         )
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed/3541e65b-279c-4c86-bb5d-a70e0f4482b6"
-          (reference "C14") (unit 1)
+          (reference "C21") (unit 1)
         )
       )
     )
@@ -558,7 +558,7 @@
           (reference "#PWR029") (unit 1)
         )
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed/3541e65b-279c-4c86-bb5d-a70e0f4482b6"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
       (project "dlev-mini"
@@ -593,7 +593,7 @@
           (reference "U1") (unit 1)
         )
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed/3541e65b-279c-4c86-bb5d-a70e0f4482b6"
-          (reference "U1") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -625,7 +625,7 @@
           (reference "R13") (unit 1)
         )
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed/3541e65b-279c-4c86-bb5d-a70e0f4482b6"
-          (reference "R11") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
       (project "dlev-mini"
