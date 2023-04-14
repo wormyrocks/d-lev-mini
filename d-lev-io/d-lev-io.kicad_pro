@@ -619,12 +619,16 @@
       "LDO3v3"
     ],
     [
+      "fd6a6c10-f456-4937-8c5d-f097bbb805c0",
+      "SAMD11"
+    ],
+    [
       "f19ba83a-ef5a-459f-9ba4-5cb53e267077",
       "Buck"
     ],
     [
-      "fd6a6c10-f456-4937-8c5d-f097bbb805c0",
-      "SAMD11"
+      "a27f70fd-d508-47b8-a0c3-100551b81610",
+      "DAC"
     ]
   ],
   "text_variables": {}

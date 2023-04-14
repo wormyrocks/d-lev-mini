@@ -3,4 +3,5 @@
   (lib (name "assorted")(type "KiCad")(uri "${KIPRJMOD}/../d-lev-libraries/lib_sch/assorted.kicad_sym")(options "")(descr ""))
   (lib (name "d-lev")(type "KiCad")(uri "${KIPRJMOD}/../d-lev-libraries/lib_sch/d-lev.kicad_sym")(options "")(descr ""))
   (lib (name "theremin")(type "KiCad")(uri "${KIPRJMOD}/../d-lev-libraries/lib_sch/theremin.kicad_sym")(options "")(descr ""))
+  (lib (name "ess_dac")(type "KiCad")(uri "${KIPRJMOD}/../d-lev-libraries/lib_sch/ess-dac.kicad_sym")(options "")(descr ""))
 )
