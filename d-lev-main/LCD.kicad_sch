@@ -1028,7 +1028,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 198.12 99.06 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3c8e8730-d0a9-4ff1-8479-fce45c4ece3f)
-    (property "Reference" "H8" (at 201.93 98.425 90)
+    (property "Reference" "H6" (at 201.93 98.425 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "M3 Standoff" (at 201.93 100.965 90)
@@ -1044,7 +1044,7 @@
     (instances
       (project "dlev-mini"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/2925ec6e-2aba-4938-a246-f8cb5ac94723"
-          (reference "H8") (unit 1)
+          (reference "H6") (unit 1)
         )
       )
     )
@@ -1073,7 +1073,7 @@
           (reference "R?") (unit 1)
         )
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/2925ec6e-2aba-4938-a246-f8cb5ac94723"
-          (reference "R8") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -1102,7 +1102,7 @@
           (reference "R?") (unit 1)
         )
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/2925ec6e-2aba-4938-a246-f8cb5ac94723"
-          (reference "R5") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -1111,7 +1111,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 198.12 93.98 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6827d95c-a633-4fb6-8da5-ad8069e700b9)
-    (property "Reference" "H7" (at 201.93 93.345 90)
+    (property "Reference" "H5" (at 201.93 93.345 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "M3 Standoff" (at 201.93 95.885 90)
@@ -1127,7 +1127,7 @@
     (instances
       (project "dlev-mini"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/2925ec6e-2aba-4938-a246-f8cb5ac94723"
-          (reference "H7") (unit 1)
+          (reference "H5") (unit 1)
         )
       )
     )
@@ -1156,7 +1156,7 @@
           (reference "R?") (unit 1)
         )
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/2925ec6e-2aba-4938-a246-f8cb5ac94723"
-          (reference "R6") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -1165,7 +1165,7 @@
   (symbol (lib_id "Transistor_BJT:MMBT3904") (at 87.63 153.035 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 80b3e997-526b-413a-8241-aca979cd79c1)
-    (property "Reference" "Q2" (at 93.345 152.4 0)
+    (property "Reference" "Q1" (at 93.345 152.4 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MMBT3904" (at 93.345 154.94 0)
@@ -1183,7 +1183,7 @@
     (instances
       (project "dlev-mini"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/2925ec6e-2aba-4938-a246-f8cb5ac94723"
-          (reference "Q2") (unit 1)
+          (reference "Q1") (unit 1)
         )
       )
     )
@@ -1220,7 +1220,7 @@
   (symbol (lib_id "assorted:LCD-20X4B-noshield") (at 149.86 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8d69be86-f00b-4f98-b197-6ea31c1b8316)
-    (property "Reference" "DS2" (at 149.86 81.28 0)
+    (property "Reference" "DS1" (at 149.86 81.28 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LCD-20X4B-noshield" (at 149.86 83.82 0)
@@ -1263,7 +1263,7 @@
     (instances
       (project "dlev-mini"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/2925ec6e-2aba-4938-a246-f8cb5ac94723"
-          (reference "DS2") (unit 1)
+          (reference "DS1") (unit 1)
         )
       )
     )
@@ -1384,7 +1384,7 @@
   (symbol (lib_id "Device:C_Small") (at 68.58 158.115 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c92f8d67-8736-450c-b292-f605655190f4)
-    (property "Reference" "C21" (at 71.12 157.4863 0)
+    (property "Reference" "C1" (at 71.12 157.4863 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" ".1u" (at 71.12 160.0263 0)
@@ -1401,7 +1401,7 @@
     (instances
       (project "dlev-mini"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/2925ec6e-2aba-4938-a246-f8cb5ac94723"
-          (reference "C21") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -1438,7 +1438,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 198.12 83.82 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ced04d30-6de3-4adb-8670-2971bc884663)
-    (property "Reference" "H5" (at 201.93 83.185 90)
+    (property "Reference" "H4" (at 201.93 83.185 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "M3 Standoff" (at 201.93 85.725 90)
@@ -1454,7 +1454,7 @@
     (instances
       (project "dlev-mini"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/2925ec6e-2aba-4938-a246-f8cb5ac94723"
-          (reference "H5") (unit 1)
+          (reference "H4") (unit 1)
         )
       )
     )
@@ -1493,7 +1493,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 198.12 88.9 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d44cd7fa-4aa9-4a92-b4cc-e4aaada45262)
-    (property "Reference" "H6" (at 201.93 88.265 90)
+    (property "Reference" "H3" (at 201.93 88.265 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "M3 Standoff" (at 201.93 90.805 90)
@@ -1509,7 +1509,7 @@
     (instances
       (project "dlev-mini"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/2925ec6e-2aba-4938-a246-f8cb5ac94723"
-          (reference "H6") (unit 1)
+          (reference "H3") (unit 1)
         )
       )
     )
@@ -1568,7 +1568,7 @@
           (reference "R?") (unit 1)
         )
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/2925ec6e-2aba-4938-a246-f8cb5ac94723"
-          (reference "R7") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )

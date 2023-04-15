@@ -2505,7 +2505,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 105.41 186.055 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0e7a4db4-8bc2-428d-9485-1d24d60ddfef)
-    (property "Reference" "TP5" (at 106.68 189.23 0)
+    (property "Reference" "TP8" (at 106.68 189.23 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "GPIO_O2" (at 106.68 191.135 0)
@@ -2521,7 +2521,7 @@
     (instances
       (project "dlev-mini"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
-          (reference "TP5") (unit 1)
+          (reference "TP8") (unit 1)
         )
       )
     )
@@ -2530,7 +2530,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 63.5 191.77 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0eaae222-9ebc-4492-879c-bf8126c2eacd)
-    (property "Reference" "SW10" (at 63.5 185.42 0)
+    (property "Reference" "SW8" (at 63.5 185.42 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 63.5 187.96 0)
@@ -2547,7 +2547,7 @@
     (instances
       (project "dlev-mini"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
-          (reference "SW10") (unit 1)
+          (reference "SW8") (unit 1)
         )
       )
     )
@@ -2556,7 +2556,7 @@
   (symbol (lib_id "Device:R_Small") (at 166.37 28.575 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 113d0123-2f3b-440c-98ea-27056b97062c)
-    (property "Reference" "R2" (at 166.37 26.67 90)
+    (property "Reference" "R14" (at 166.37 26.67 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 166.37 28.575 90)
@@ -2573,7 +2573,7 @@
     (instances
       (project "dlev-mini"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
-          (reference "R2") (unit 1)
+          (reference "R14") (unit 1)
         )
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907"
           (reference "R2") (unit 1)
@@ -2585,7 +2585,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 104.14 46.355 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 11fcbd7b-f333-4a27-baf0-91a78257c601)
-    (property "Reference" "TP3" (at 106.68 42.418 0)
+    (property "Reference" "TP7" (at 106.68 42.418 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3v3" (at 106.68 44.958 0)
@@ -2601,7 +2601,7 @@
     (instances
       (project "dlev-mini"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
-          (reference "TP3") (unit 1)
+          (reference "TP7") (unit 1)
         )
       )
     )
@@ -2610,7 +2610,7 @@
   (symbol (lib_id "Device:R") (at 51.435 191.77 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1a9cb57c-bb63-4770-a0c5-0250150cf413)
-    (property "Reference" "R16" (at 51.435 186.69 90)
+    (property "Reference" "R50" (at 51.435 186.69 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 51.435 189.23 90)
@@ -2627,7 +2627,7 @@
     (instances
       (project "dlev-mini"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
-          (reference "R16") (unit 1)
+          (reference "R50") (unit 1)
         )
       )
     )
@@ -2636,7 +2636,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 140.97 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1fb06ce9-71d5-4f0b-9969-ac8eb123b1ad)
-    (property "Reference" "TP1" (at 143.51 48.133 0)
+    (property "Reference" "TP3" (at 143.51 48.133 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2v5" (at 143.51 50.673 0)
@@ -2652,7 +2652,7 @@
     (instances
       (project "dlev-mini"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
-          (reference "TP1") (unit 1)
+          (reference "TP3") (unit 1)
         )
       )
     )
@@ -2686,7 +2686,7 @@
   (symbol (lib_id "Device:R_Small") (at 166.37 31.115 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2a28a410-df0d-4cac-80ae-935ff2398ac7)
-    (property "Reference" "R3" (at 166.37 33.02 90)
+    (property "Reference" "R16" (at 166.37 33.02 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 166.37 31.115 90)
@@ -2703,7 +2703,7 @@
     (instances
       (project "dlev-mini"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
-          (reference "R3") (unit 1)
+          (reference "R16") (unit 1)
         )
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907"
           (reference "R3") (unit 1)
@@ -2715,7 +2715,7 @@
   (symbol (lib_id "Device:C_Small") (at 193.04 106.68 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2cdd1fa1-b5c9-4a73-bd11-6721b15d5fc3)
-    (property "Reference" "C22" (at 193.0463 110.49 90)
+    (property "Reference" "C2" (at 193.0463 110.49 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" ".01u" (at 193.0463 113.03 90)
@@ -2732,7 +2732,7 @@
     (instances
       (project "dlev-mini"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
-          (reference "C22") (unit 1)
+          (reference "C2") (unit 1)
         )
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907"
           (reference "C19") (unit 1)
@@ -2744,7 +2744,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 107.95 182.245 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2e4d5740-f0f6-4454-8364-256f9ef67c8c)
-    (property "Reference" "TP6" (at 109.22 185.547 0)
+    (property "Reference" "TP2" (at 109.22 185.547 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "GPIO_I3" (at 109.22 187.325 0)
@@ -2760,7 +2760,7 @@
     (instances
       (project "dlev-mini"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
-          (reference "TP6") (unit 1)
+          (reference "TP2") (unit 1)
         )
       )
     )
@@ -2847,7 +2847,7 @@
   (symbol (lib_id "Device:LED") (at 250.19 130.175 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 37aa9729-8891-4bfe-8c8e-19022989575c)
-    (property "Reference" "D2" (at 254 131.1275 90)
+    (property "Reference" "D3" (at 254 131.1275 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED" (at 254 133.6675 90)
@@ -2864,7 +2864,7 @@
     (instances
       (project "dlev-mini"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
-          (reference "D2") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -2898,7 +2898,7 @@
   (symbol (lib_id "ac608:AC608") (at 97.79 108.585 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3ff3af7d-8213-4cdf-8be8-8614f2726b83)
-    (property "Reference" "U3" (at 57.6324 62.23 0)
+    (property "Reference" "U1" (at 57.6324 62.23 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AC608" (at 60.1724 62.23 0)
@@ -3037,7 +3037,7 @@
     (instances
       (project "dlev-mini"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
-          (reference "U3") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -3128,7 +3128,7 @@
   (symbol (lib_id "Device:R_Small") (at 160.655 37.465 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 55b50265-5b36-4b22-bc27-097523faa87f)
-    (property "Reference" "R1" (at 158.75 37.465 90)
+    (property "Reference" "R15" (at 158.75 37.465 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 160.655 37.465 90)
@@ -3145,7 +3145,7 @@
     (instances
       (project "dlev-mini"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
-          (reference "R1") (unit 1)
+          (reference "R15") (unit 1)
         )
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907"
           (reference "R1") (unit 1)
@@ -3310,7 +3310,7 @@
   (symbol (lib_id "Device:R") (at 179.705 95.885 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 782f7eb2-fe84-4189-a03a-d554664e4e4d)
-    (property "Reference" "R15" (at 181.61 95.25 0)
+    (property "Reference" "R8" (at 181.61 95.25 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 181.61 97.79 0)
@@ -3327,7 +3327,7 @@
     (instances
       (project "dlev-mini"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
-          (reference "R15") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -3336,7 +3336,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 113.03 41.275 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7ded624f-83d2-450a-89fd-08cf672603ed)
-    (property "Reference" "TP2" (at 115.57 37.338 0)
+    (property "Reference" "TP6" (at 115.57 37.338 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1v2" (at 115.57 39.878 0)
@@ -3352,7 +3352,7 @@
     (instances
       (project "dlev-mini"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
-          (reference "TP2") (unit 1)
+          (reference "TP6") (unit 1)
         )
       )
     )
@@ -3361,7 +3361,7 @@
   (symbol (lib_id "Device:R") (at 259.08 121.285 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 870979e0-8a62-4b4c-853a-408d250f4237)
-    (property "Reference" "R68" (at 261.62 120.65 0)
+    (property "Reference" "R3" (at 261.62 120.65 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1k" (at 261.62 123.19 0)
@@ -3378,7 +3378,7 @@
     (instances
       (project "dlev-mini"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
-          (reference "R68") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -3387,7 +3387,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 113.03 184.15 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 88c9436d-4f55-45f1-afb2-e31898345f60)
-    (property "Reference" "TP7" (at 117.475 184.15 90)
+    (property "Reference" "TP9" (at 117.475 184.15 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "GPIO_I2" (at 117.475 186.69 90)
@@ -3403,7 +3403,7 @@
     (instances
       (project "dlev-mini"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
-          (reference "TP7") (unit 1)
+          (reference "TP9") (unit 1)
         )
       )
     )
@@ -3462,7 +3462,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 102.87 190.5 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 97c1ee2c-1940-4cd0-bffd-08e6db86daa0)
-    (property "Reference" "TP4" (at 104.14 193.675 0)
+    (property "Reference" "TP1" (at 104.14 193.675 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "GPIO_O3" (at 104.14 195.453 0)
@@ -3474,11 +3474,14 @@
     (property "Datasheet" "~" (at 97.79 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Field4" "" (at 102.87 190.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid ef00b08c-e169-4960-ab51-ca6e317d6539))
     (instances
       (project "dlev-mini"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
-          (reference "TP4") (unit 1)
+          (reference "TP1") (unit 1)
         )
       )
     )
@@ -3487,7 +3490,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x03_Odd_Even") (at 210.82 148.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 99dec11c-655b-48c6-97b3-d1ee93c9db7e)
-    (property "Reference" "J2" (at 212.09 139.7 0)
+    (property "Reference" "J5" (at 212.09 139.7 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Tag-Connect TC2030-NL" (at 212.09 142.24 0)
@@ -3508,7 +3511,7 @@
     (instances
       (project "dlev-mini"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
-          (reference "J2") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
     )
@@ -3542,7 +3545,7 @@
   (symbol (lib_id "Device:R") (at 250.19 121.285 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9c2af875-75a8-4e6d-a5e4-1722f268bd85)
-    (property "Reference" "R67" (at 252.73 120.65 0)
+    (property "Reference" "R2" (at 252.73 120.65 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1k" (at 252.73 123.19 0)
@@ -3559,7 +3562,7 @@
     (instances
       (project "dlev-mini"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
-          (reference "R67") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -3693,7 +3696,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 193.04 102.235 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c2494604-c997-42e5-8516-09866c62fe9e)
-    (property "Reference" "SW9" (at 193.04 95.25 0)
+    (property "Reference" "SW1" (at 193.04 95.25 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 193.04 97.79 0)
@@ -3710,7 +3713,7 @@
     (instances
       (project "dlev-mini"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
-          (reference "SW9") (unit 1)
+          (reference "SW1") (unit 1)
         )
       )
     )
@@ -3747,7 +3750,7 @@
   (symbol (lib_id "Device:LED") (at 240.665 130.175 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c5c57f7d-084a-4bfe-9910-c254144222b4)
-    (property "Reference" "D1" (at 243.84 131.1275 90)
+    (property "Reference" "D2" (at 243.84 131.1275 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED" (at 243.84 133.6675 90)
@@ -3764,7 +3767,7 @@
     (instances
       (project "dlev-mini"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
-          (reference "D1") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -3798,7 +3801,7 @@
   (symbol (lib_id "Device:LED") (at 259.08 130.175 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid da662f38-5320-4c26-b2b4-e96f58ef80ba)
-    (property "Reference" "D3" (at 262.89 131.1275 90)
+    (property "Reference" "D1" (at 262.89 131.1275 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED" (at 262.89 133.6675 90)
@@ -3815,7 +3818,7 @@
     (instances
       (project "dlev-mini"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
-          (reference "D3") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
     )
@@ -3824,7 +3827,7 @@
   (symbol (lib_id "Device:R") (at 240.665 121.285 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid df6f6d0c-85be-4209-a177-f1f6188b4ae7)
-    (property "Reference" "R66" (at 242.57 120.65 0)
+    (property "Reference" "R1" (at 242.57 120.65 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1k" (at 242.57 123.19 0)
@@ -3841,7 +3844,7 @@
     (instances
       (project "dlev-mini"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
-          (reference "R66") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
