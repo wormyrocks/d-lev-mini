@@ -1658,7 +1658,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 20f61e98-5fc9-496e-86a8-f971ec837bc0)
   )
-  (text "TODO: increase size of PCB capacitor" (at 151.13 93.98 0)
+  (text "TODO: increase size of PCB capacitor\nReplace with a normal capacitor"
+    (at 151.13 93.98 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid abc838e3-e808-483d-bbe2-3e705a57569a)
   )
