@@ -378,7 +378,7 @@
     (property "Reference" "C12" (at 143.51 90.7986 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" ".1u" (at 143.51 93.3386 0)
+    (property "Value" "1u" (at 143.51 93.3386 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 140.335 91.44 0)

@@ -1,0 +1,21 @@
+(footprint "MicStandHole" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (property "Sheetfile" "d-lev-io.kicad_sch")
+  (property "Sheetname" "")
+  (property "Tolerance" "")
+  (property "ki_description" "Mounting Hole with connection")
+  (property "ki_keywords" "mounting hole")
+  (fp_text reference "H3" (at -5.32 -11.37 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 17de3210-829f-482d-85a4-fd38826334e7)
+  )
+  (fp_text value "MountingHole_Pad" (at -5.32 -9.87 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp b68bea38-818c-4c09-a720-dcd6f11fc41a)
+  )
+  (fp_text user "${REFERENCE}" (at -5.32 -8.37 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 36d25a21-6230-4a37-9fd5-8b40efcf917a)
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 26 26) (drill 19) (layers "F.Cu" "F.Mask") (tstamp 8604e28d-1f2f-4e8e-ab0b-4136285a802e))
+)
