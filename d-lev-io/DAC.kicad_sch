@@ -1285,6 +1285,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 70da4118-1694-4c04-8f6d-2ff586fcf8b0)
   )
+  (text "Untie these to visualize analog and \ndigital grounds in layout"
+    (at 221.5388 44.2468 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 9bda53c3-fd88-4992-ae1b-542d070b3aac)
+  )
   (text "In to amp" (at 163.195 139.7 90)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a211ade5-1585-4ebc-91c0-61afa276664c)
