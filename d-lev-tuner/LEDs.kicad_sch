@@ -1,0 +1,148 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 58823427-58af-44e5-80d5-48bc77238358)
+
+  (paper "A4")
+
+  (lib_symbols
+    (symbol "power:VCC" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "VCC" (at 0 3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"VCC\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "VCC_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "VCC_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "VCC" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+  )
+
+
+  (wire (pts (xy 33.02 38.1) (xy 33.02 30.988))
+    (stroke (width 0) (type default))
+    (uuid 440dabc8-235d-4d96-ba56-c5eba168156d)
+  )
+
+  (hierarchical_label "LED_VCC" (shape input) (at 33.02 38.1 270) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid babaf722-e3f0-4348-9289-41eda2762e14)
+  )
+
+  (symbol (lib_id "power:VCC") (at 33.02 30.988 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid fb931868-4e9d-499c-b530-8971a5e7840e)
+    (property "Reference" "#PWR02" (at 33.02 34.798 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VCC" (at 33.02 26.67 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 33.02 30.988 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 33.02 30.988 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2f9e6059-bfc5-4612-a117-400204633c42))
+    (instances
+      (project "d-lev-tuner"
+        (path "/d0a63483-9262-4daa-933b-19ce0ffbb204/acb84e3e-b02a-4125-a5fd-76dfa9e6bc02"
+          (reference "#PWR02") (unit 1)
+        )
+      )
+    )
+  )
+
+  (sheet (at 215.9 73.66) (size 26.67 31.75) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 998dd34d-1462-4ba1-af7d-2886b49c895b)
+    (property "Sheetname" "star" (at 215.9 72.9484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "star.kicad_sch" (at 215.9 105.9946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "d-lev-tuner"
+        (path "/d0a63483-9262-4daa-933b-19ce0ffbb204/acb84e3e-b02a-4125-a5fd-76dfa9e6bc02" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 80.01 127) (size 45.72 41.91) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid b471920e-ada6-4206-9851-c97da99a943b)
+    (property "Sheetname" "7seg" (at 80.01 126.2884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "7seg.kicad_sch" (at 80.01 169.4946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "d-lev-tuner"
+        (path "/d0a63483-9262-4daa-933b-19ce0ffbb204/acb84e3e-b02a-4125-a5fd-76dfa9e6bc02" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 220.98 132.08) (size 26.67 31.75) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid f1cdfdd3-9499-45e0-88e5-a434f75bdf4f)
+    (property "Sheetname" "line" (at 220.98 131.3684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "line.kicad_sch" (at 220.98 164.4146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "d-lev-tuner"
+        (path "/d0a63483-9262-4daa-933b-19ce0ffbb204/acb84e3e-b02a-4125-a5fd-76dfa9e6bc02" (page "4"))
+      )
+    )
+  )
+)
