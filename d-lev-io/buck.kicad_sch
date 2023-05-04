@@ -511,7 +511,7 @@
   (symbol (lib_id "Device:R_Small") (at 193.675 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1c5f6b56-40be-4ed1-9280-cd739d0cd0a3)
-    (property "Reference" "R15" (at 196.215 109.855 0)
+    (property "Reference" "R30" (at 196.215 109.855 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "13.3k" (at 196.215 112.395 0)
@@ -531,7 +531,7 @@
     (instances
       (project "d-lev-io"
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed/f19ba83a-ef5a-459f-9ba4-5cb53e267077"
-          (reference "R15") (unit 1)
+          (reference "R30") (unit 1)
         )
       )
     )
@@ -569,7 +569,7 @@
   (symbol (lib_id "Device:R_Small") (at 193.675 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2246916d-db96-47f9-9b9b-a9b30f7e9c40)
-    (property "Reference" "R13" (at 196.215 88.265 0)
+    (property "Reference" "R32" (at 196.215 88.265 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "49.9" (at 196.215 90.805 0)
@@ -589,7 +589,7 @@
     (instances
       (project "d-lev-io"
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed/f19ba83a-ef5a-459f-9ba4-5cb53e267077"
-          (reference "R13") (unit 1)
+          (reference "R32") (unit 1)
         )
       )
     )
@@ -648,7 +648,7 @@
   (symbol (lib_id "Device:C_Small") (at 184.785 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4307129f-baa6-42b2-a100-a9d2c1256bce)
-    (property "Reference" "C16" (at 187.325 99.7013 0)
+    (property "Reference" "C34" (at 187.325 99.7013 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "75p" (at 187.325 102.2413 0)
@@ -668,7 +668,7 @@
     (instances
       (project "d-lev-io"
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed/f19ba83a-ef5a-459f-9ba4-5cb53e267077"
-          (reference "C16") (unit 1)
+          (reference "C34") (unit 1)
         )
       )
     )
@@ -677,7 +677,7 @@
   (symbol (lib_id "Device:C_Small") (at 104.14 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 56452aee-a00f-4bdc-be2c-b1f94bca5d64)
-    (property "Reference" "C14" (at 107.95 90.805 0)
+    (property "Reference" "C40" (at 107.95 90.805 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" ".1u" (at 107.95 93.345 0)
@@ -700,7 +700,7 @@
     (instances
       (project "d-lev-io"
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed/f19ba83a-ef5a-459f-9ba4-5cb53e267077"
-          (reference "C14") (unit 1)
+          (reference "C40") (unit 1)
         )
       )
     )
@@ -709,7 +709,7 @@
   (symbol (lib_id "Device:C_Small") (at 91.44 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 726e82b6-d1f4-48e8-8d0a-f624a69d81ff)
-    (property "Reference" "C13" (at 95.25 90.805 0)
+    (property "Reference" "C36" (at 95.25 90.805 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 95.25 93.345 0)
@@ -732,7 +732,7 @@
     (instances
       (project "d-lev-io"
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed/f19ba83a-ef5a-459f-9ba4-5cb53e267077"
-          (reference "C13") (unit 1)
+          (reference "C36") (unit 1)
         )
       )
     )
@@ -741,7 +741,7 @@
   (symbol (lib_id "Device:R_Small") (at 193.675 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8b56a8d2-6c3a-453f-a861-b822642ee855)
-    (property "Reference" "R14" (at 196.215 99.695 0)
+    (property "Reference" "R31" (at 196.215 99.695 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100k" (at 196.215 102.235 0)
@@ -761,7 +761,7 @@
     (instances
       (project "d-lev-io"
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed/f19ba83a-ef5a-459f-9ba4-5cb53e267077"
-          (reference "R14") (unit 1)
+          (reference "R31") (unit 1)
         )
       )
     )
@@ -770,7 +770,7 @@
   (symbol (lib_id "Device:C_Small") (at 207.01 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8b66f2bc-2b55-4d1e-9bf8-b7dd82ca27f1)
-    (property "Reference" "C17" (at 209.55 89.5413 0)
+    (property "Reference" "C37" (at 209.55 89.5413 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22u" (at 209.55 92.0813 0)
@@ -793,7 +793,7 @@
     (instances
       (project "d-lev-io"
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed/f19ba83a-ef5a-459f-9ba4-5cb53e267077"
-          (reference "C17") (unit 1)
+          (reference "C37") (unit 1)
         )
       )
     )
@@ -802,7 +802,7 @@
   (symbol (lib_id "Device:R_Small") (at 137.795 101.346 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid af388007-35c3-4449-b0e8-73228dac78fa)
-    (property "Reference" "R12" (at 139.9032 100.711 0)
+    (property "Reference" "R34" (at 139.9032 100.711 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "105k" (at 139.9032 103.251 0)
@@ -822,7 +822,7 @@
     (instances
       (project "d-lev-io"
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed/f19ba83a-ef5a-459f-9ba4-5cb53e267077"
-          (reference "R12") (unit 1)
+          (reference "R34") (unit 1)
         )
       )
     )
@@ -831,7 +831,7 @@
   (symbol (lib_id "Device:C_Small") (at 168.91 82.55 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b257493b-e6c2-48af-8d8f-138162a15a7e)
-    (property "Reference" "C15" (at 168.91 76.2 90)
+    (property "Reference" "C39" (at 168.91 76.2 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" ".1u" (at 168.91 78.74 90)
@@ -854,7 +854,7 @@
     (instances
       (project "d-lev-io"
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed/f19ba83a-ef5a-459f-9ba4-5cb53e267077"
-          (reference "C15") (unit 1)
+          (reference "C39") (unit 1)
         )
       )
     )
@@ -863,7 +863,7 @@
   (symbol (lib_id "Device:C_Small") (at 217.17 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid befd215c-59c4-41bc-843f-cd52085a7ec6)
-    (property "Reference" "C18" (at 219.71 89.5413 0)
+    (property "Reference" "C35" (at 219.71 89.5413 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22u" (at 219.71 92.0813 0)
@@ -886,7 +886,7 @@
     (instances
       (project "d-lev-io"
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed/f19ba83a-ef5a-459f-9ba4-5cb53e267077"
-          (reference "C18") (unit 1)
+          (reference "C35") (unit 1)
         )
       )
     )
@@ -944,7 +944,7 @@
           (reference "U3") (unit 1)
         )
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed/f19ba83a-ef5a-459f-9ba4-5cb53e267077"
-          (reference "U2") (unit 1)
+          (reference "U7") (unit 1)
         )
       )
     )
@@ -978,7 +978,7 @@
   (symbol (lib_id "Device:R_Small") (at 137.795 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e75fa8bf-a723-47f3-860f-28e8411ab0a1)
-    (property "Reference" "R11" (at 140.335 92.075 0)
+    (property "Reference" "R35" (at 140.335 92.075 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "511k" (at 140.335 94.615 0)
@@ -998,7 +998,7 @@
     (instances
       (project "d-lev-io"
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed/f19ba83a-ef5a-459f-9ba4-5cb53e267077"
-          (reference "R11") (unit 1)
+          (reference "R35") (unit 1)
         )
       )
     )

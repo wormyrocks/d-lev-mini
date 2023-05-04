@@ -395,7 +395,7 @@
           (reference "C12") (unit 1)
         )
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed/83e88c30-a90d-4699-98a4-5fb5b0c65049"
-          (reference "C24") (unit 1)
+          (reference "C31") (unit 1)
         )
       )
     )
@@ -427,7 +427,7 @@
           (reference "C15") (unit 1)
         )
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed/83e88c30-a90d-4699-98a4-5fb5b0c65049"
-          (reference "C27") (unit 1)
+          (reference "C21") (unit 1)
         )
       )
     )
@@ -456,7 +456,7 @@
           (reference "C14") (unit 1)
         )
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed/83e88c30-a90d-4699-98a4-5fb5b0c65049"
-          (reference "C26") (unit 1)
+          (reference "C23") (unit 1)
         )
       )
     )
@@ -488,7 +488,7 @@
           (reference "C13") (unit 1)
         )
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed/83e88c30-a90d-4699-98a4-5fb5b0c65049"
-          (reference "C23") (unit 1)
+          (reference "C26") (unit 1)
         )
       )
     )
@@ -529,7 +529,7 @@
   (symbol (lib_id "Regulator_Linear:AP2112K-3.3") (at 118.11 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f9f36e9a-2c04-4361-8d33-dda8c0dfec98)
-    (property "Reference" "U5" (at 118.11 78.105 0)
+    (property "Reference" "U4" (at 118.11 78.105 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AP2112K-3.3" (at 118.11 80.645 0)
@@ -549,7 +549,7 @@
     (instances
       (project "d-lev-io"
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed/83e88c30-a90d-4699-98a4-5fb5b0c65049"
-          (reference "U5") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
     )

@@ -2007,6 +2007,9 @@
   (junction (at 125.476 73.025) (diameter 0) (color 0 0 0 0)
     (uuid 410d9c58-238a-4945-bf4c-d795280c4b93)
   )
+  (junction (at 206.883 23.495) (diameter 0) (color 0 0 0 0)
+    (uuid 43f6dbdc-1c55-4d6f-b7a9-aab02c7e3f4a)
+  )
   (junction (at 128.016 78.105) (diameter 0) (color 0 0 0 0)
     (uuid 48872fe9-4460-447f-9024-3a4a5bb84ae0)
   )
@@ -2031,6 +2034,9 @@
   (junction (at 180.975 35.56) (diameter 0) (color 0 0 0 0)
     (uuid 67c5e980-3ba8-4dce-8bce-7765593b1b17)
   )
+  (junction (at 223.52 85.725) (diameter 0) (color 0 0 0 0)
+    (uuid 68f16de3-cea6-4b19-8526-88fd00749dfd)
+  )
   (junction (at 166.37 159.385) (diameter 0) (color 0 0 0 0)
     (uuid 7440204a-53d4-4adf-81fb-2a9b65415042)
   )
@@ -2040,11 +2046,17 @@
   (junction (at 165.1 127) (diameter 0) (color 0 0 0 0)
     (uuid 7e37c5c9-2078-4343-bb2f-2a9e66174b2b)
   )
+  (junction (at 223.52 113.03) (diameter 0) (color 0 0 0 0)
+    (uuid 7ecd6b23-852f-45fb-baf9-a6979ae5cd0a)
+  )
   (junction (at 122.936 67.945) (diameter 0) (color 0 0 0 0)
     (uuid 81362409-d478-408a-833f-b057a135da90)
   )
   (junction (at 223.52 127) (diameter 0) (color 0 0 0 0)
     (uuid aa71a388-668c-4279-bfaf-84a011813bc1)
+  )
+  (junction (at 210.312 61.595) (diameter 0) (color 0 0 0 0)
+    (uuid b3923924-24b2-4a6a-8492-1d042565b78d)
   )
   (junction (at 259.715 127.635) (diameter 0) (color 0 0 0 0)
     (uuid bada3ae5-0dc5-4e38-90f2-e028313c5964)
@@ -2467,11 +2479,15 @@
     (uuid 3e3753a6-b757-458b-a0b4-fe27b1a5d3cd)
   )
 
+  (wire (pts (xy 210.312 61.595) (xy 233.68 61.595))
+    (stroke (width 0) (type default))
+    (uuid 41d1e98a-6257-41b5-a147-61476182c21b)
+  )
   (wire (pts (xy 153.035 59.055) (xy 153.035 50.165))
     (stroke (width 0) (type default))
     (uuid 4262041c-2705-430a-9cbe-703f41a7de0e)
   )
-  (wire (pts (xy 214.249 23.495) (xy 203.2 23.495))
+  (wire (pts (xy 214.249 23.495) (xy 206.883 23.495))
     (stroke (width 0) (type default))
     (uuid 430171e5-b952-4249-b880-aa0a4ed01ba6)
   )
@@ -2563,7 +2579,7 @@
     (stroke (width 0) (type default))
     (uuid 4ffa1a4d-f1a5-4a4d-aefe-54724329326a)
   )
-  (wire (pts (xy 207.01 61.595) (xy 233.68 61.595))
+  (wire (pts (xy 207.01 61.595) (xy 210.312 61.595))
     (stroke (width 0) (type default))
     (uuid 51560807-2409-4b76-971b-b5b871617f19)
   )
@@ -2893,6 +2909,10 @@
   (wire (pts (xy 156.845 23.495) (xy 166.37 23.495))
     (stroke (width 0) (type default))
     (uuid 95df4116-5b6f-43a6-afc3-4973f4f3efbb)
+  )
+  (wire (pts (xy 206.883 23.495) (xy 203.2 23.495))
+    (stroke (width 0) (type default))
+    (uuid 96ccbc02-b346-406e-9b3a-8bf361af3ad7)
   )
   (polyline (pts (xy 204.851 -37.338) (xy 212.217 -37.338))
     (stroke (width 0) (type dash))
@@ -3867,7 +3887,7 @@
   (symbol (lib_id "74xGxx:74LVC2GU04") (at 259.715 115.57 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 04801327-034b-41ec-8ecd-09b292123512)
-    (property "Reference" "U4" (at 266.065 114.935 0)
+    (property "Reference" "U1" (at 266.065 114.935 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "74LVC2GU04" (at 266.065 117.475 0)
@@ -3888,7 +3908,7 @@
     (instances
       (project "d-lev-io"
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "U4") (unit 3)
+          (reference "U1") (unit 3)
         )
       )
     )
@@ -3897,7 +3917,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 54.61 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 070d1987-f2c3-41f8-9b81-5bc7fedc1af7)
-    (property "Reference" "TP4" (at 55.88 128.27 0)
+    (property "Reference" "TP2" (at 55.88 128.27 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "VSYS" (at 55.88 130.81 0)
@@ -3913,7 +3933,7 @@
     (instances
       (project "d-lev-io"
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "TP4") (unit 1)
+          (reference "TP2") (unit 1)
         )
       )
     )
@@ -3970,7 +3990,32 @@
           (reference "C22") (unit 1)
         )
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "C37") (unit 1)
+          (reference "C4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:TestPoint") (at 223.52 113.03 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 15a747bb-7011-48ce-a2ad-f92f1a89c108)
+    (property "Reference" "TP7" (at 226.695 114.3 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "VUSB" (at 224.79 114.3 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (at 223.52 118.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 223.52 118.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e3c1f29b-bcb5-4eb3-baa5-0828224e4318))
+    (instances
+      (project "d-lev-io"
+        (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
+          (reference "TP7") (unit 1)
         )
       )
     )
@@ -4002,7 +4047,7 @@
           (reference "R42") (unit 1)
         )
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "R28") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -4061,7 +4106,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 125.476 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 25d7eee0-38ea-40e2-9d8c-f8b877c5c33d)
-    (property "Reference" "TP15" (at 126.746 69.215 0)
+    (property "Reference" "TP28" (at 126.746 69.215 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "VUSB" (at 126.746 71.12 0)
@@ -4077,7 +4122,7 @@
     (instances
       (project "d-lev-io"
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "TP15") (unit 1)
+          (reference "TP28") (unit 1)
         )
       )
     )
@@ -4086,7 +4131,7 @@
   (symbol (lib_id "74xGxx:74AHC1G126") (at 194.31 61.595 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 29317ac8-c342-4f62-8963-82b6882be80d)
-    (property "Reference" "U6" (at 203.2 53.975 0)
+    (property "Reference" "U3" (at 203.2 53.975 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74AHC1G126" (at 203.2 56.515 0)
@@ -4106,7 +4151,7 @@
     (instances
       (project "d-lev-io"
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "U6") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -4263,7 +4308,7 @@
   (symbol (lib_id "Device:C_Small") (at 193.675 29.21 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 31f7e451-92ce-4b70-bb81-10c64ec0bc4f)
-    (property "Reference" "C6" (at 196.85 28.5686 0)
+    (property "Reference" "C28" (at 196.85 28.5686 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10u" (at 196.85 31.1086 0)
@@ -4280,7 +4325,7 @@
     (instances
       (project "d-lev-io"
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "C6") (unit 1)
+          (reference "C28") (unit 1)
         )
       )
     )
@@ -4374,7 +4419,7 @@
   (symbol (lib_id "Device:R_Small") (at 49.53 56.515 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 366fa415-e142-4f24-b5ae-658978301b4b)
-    (property "Reference" "R1" (at 49.403 54.737 90)
+    (property "Reference" "R3" (at 49.403 54.737 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "5.1k" (at 49.657 56.515 90)
@@ -4391,7 +4436,7 @@
     (instances
       (project "d-lev-io"
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "R1") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
       (project "dlev-mini"
@@ -4465,7 +4510,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 121.666 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3cc83801-3aa8-421b-88da-267f3a5cd747)
-    (property "Reference" "TP12" (at 122.936 61.595 0)
+    (property "Reference" "TP30" (at 122.936 61.595 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "VUSB" (at 122.936 63.5 0)
@@ -4481,7 +4526,7 @@
     (instances
       (project "d-lev-io"
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "TP12") (unit 1)
+          (reference "TP30") (unit 1)
         )
       )
     )
@@ -4513,7 +4558,7 @@
           (reference "C22") (unit 1)
         )
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "C34") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -4522,7 +4567,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 114.046 50.165 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3ffc511b-cc32-40e8-97e2-6afc04d47a85)
-    (property "Reference" "TP6" (at 115.316 46.99 0)
+    (property "Reference" "TP32" (at 115.316 46.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "VUSB" (at 115.316 48.895 0)
@@ -4538,7 +4583,7 @@
     (instances
       (project "d-lev-io"
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "TP6") (unit 1)
+          (reference "TP32") (unit 1)
         )
       )
     )
@@ -4547,7 +4592,7 @@
   (symbol (lib_id "Power_Protection:USBLC6-2SC6") (at 62.865 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 410053c9-cfb5-40b8-8b7d-363c2ac04ef9)
-    (property "Reference" "U7" (at 64.5161 76.835 0)
+    (property "Reference" "U6" (at 64.5161 76.835 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "USBLC6-2SC6" (at 64.5161 79.375 0)
@@ -4568,7 +4613,7 @@
     (instances
       (project "d-lev-io"
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "U7") (unit 1)
+          (reference "U6") (unit 1)
         )
       )
     )
@@ -4577,7 +4622,7 @@
   (symbol (lib_id "Device:R_Small") (at 106.045 67.945 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4133590d-b853-4abe-bc95-aa76a0951efc)
-    (property "Reference" "R33" (at 109.855 66.675 90)
+    (property "Reference" "R14" (at 109.855 66.675 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 106.172 67.945 90)
@@ -4594,7 +4639,7 @@
     (instances
       (project "d-lev-io"
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "R33") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
       (project "dlev-mini"
@@ -4659,7 +4704,7 @@
           (reference "R42") (unit 1)
         )
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "R41") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -4698,7 +4743,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 59.944 50.165 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4e0f7bc4-7eee-41b0-afbb-6433cbec00eb)
-    (property "Reference" "TP2" (at 61.214 46.355 0)
+    (property "Reference" "TP14" (at 61.214 46.355 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "VUSB" (at 61.214 48.895 0)
@@ -4714,7 +4759,7 @@
     (instances
       (project "d-lev-io"
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "TP2") (unit 1)
+          (reference "TP14") (unit 1)
         )
       )
     )
@@ -4723,7 +4768,7 @@
   (symbol (lib_id "Device:R_Small") (at 49.53 59.055 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 50b3d72e-90a9-423c-afcf-e347b97ee219)
-    (property "Reference" "R2" (at 49.403 60.833 90)
+    (property "Reference" "R4" (at 49.403 60.833 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "5.1k" (at 49.657 59.055 90)
@@ -4740,7 +4785,7 @@
     (instances
       (project "d-lev-io"
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "R2") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
       (project "dlev-mini"
@@ -4751,10 +4796,35 @@
     )
   )
 
+  (symbol (lib_id "Connector:TestPoint") (at 223.52 85.725 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 51592489-9824-4dc0-b15a-3b896cabdd79)
+    (property "Reference" "TP8" (at 226.695 86.995 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "VUSB" (at 224.79 86.995 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (at 223.52 90.805 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 223.52 90.805 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7fc726da-75a0-4dc6-ba40-8a0e430d6412))
+    (instances
+      (project "d-lev-io"
+        (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
+          (reference "TP8") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Connector:TestPoint") (at 53.34 22.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 52d1275c-f6a4-4c3d-8deb-703575ac0bf5)
-    (property "Reference" "TP1" (at 54.61 19.05 0)
+    (property "Reference" "TP13" (at 54.61 19.05 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "VIN" (at 54.61 21.59 0)
@@ -4770,7 +4840,7 @@
     (instances
       (project "d-lev-io"
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "TP1") (unit 1)
+          (reference "TP13") (unit 1)
         )
       )
     )
@@ -4779,7 +4849,7 @@
   (symbol (lib_id "Connector:Barrel_Jack_Switch") (at 35.56 26.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 540a786b-721e-4292-9e3d-8e2369283424)
-    (property "Reference" "J2" (at 35.56 17.2212 0)
+    (property "Reference" "J5" (at 35.56 17.2212 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "PJ-059A" (at 35.56 19.7612 0)
@@ -4797,7 +4867,7 @@
     (instances
       (project "d-lev-io"
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "J2") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
       (project "dlev-mini"
@@ -4811,7 +4881,7 @@
   (symbol (lib_id "Device:C_Small") (at 184.785 29.21 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5554c7e4-fd5c-4f86-94f4-61b7654db5d7)
-    (property "Reference" "C5" (at 187.96 28.5686 0)
+    (property "Reference" "C22" (at 187.96 28.5686 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10u" (at 187.96 31.1086 0)
@@ -4828,7 +4898,7 @@
     (instances
       (project "d-lev-io"
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "C5") (unit 1)
+          (reference "C22") (unit 1)
         )
       )
     )
@@ -4885,7 +4955,7 @@
           (reference "C22") (unit 1)
         )
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "C22") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -4924,7 +4994,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 56.515 29.845 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5b710854-c7f7-4967-b82c-1b8c33c37231)
-    (property "Reference" "TP5" (at 57.785 26.035 0)
+    (property "Reference" "TP4" (at 57.785 26.035 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "GND" (at 57.785 28.575 0)
@@ -4940,7 +5010,7 @@
     (instances
       (project "d-lev-io"
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "TP5") (unit 1)
+          (reference "TP4") (unit 1)
         )
       )
     )
@@ -4996,7 +5066,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 124.206 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5cc667d0-c0b6-4a8f-8802-45747a7b4b07)
-    (property "Reference" "TP14" (at 125.476 66.675 0)
+    (property "Reference" "TP34" (at 125.476 66.675 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "VUSB" (at 125.476 68.58 0)
@@ -5012,7 +5082,7 @@
     (instances
       (project "d-lev-io"
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "TP14") (unit 1)
+          (reference "TP34") (unit 1)
         )
       )
     )
@@ -5049,7 +5119,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 126.746 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 693af050-fa37-4363-98f4-b8fb0edfcf49)
-    (property "Reference" "TP16" (at 128.016 71.755 0)
+    (property "Reference" "TP35" (at 128.016 71.755 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "VUSB" (at 128.016 73.66 0)
@@ -5065,7 +5135,7 @@
     (instances
       (project "d-lev-io"
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "TP16") (unit 1)
+          (reference "TP35") (unit 1)
         )
       )
     )
@@ -5127,7 +5197,7 @@
           (reference "C22") (unit 1)
         )
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "C45") (unit 1)
+          (reference "C38") (unit 1)
         )
       )
     )
@@ -5191,7 +5261,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 50.8 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7229c58d-4788-4511-882e-012acd5af86e)
-    (property "Reference" "H5" (at 53.975 112.395 0)
+    (property "Reference" "H3" (at 53.975 112.395 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole_Pad" (at 53.975 114.935 0)
@@ -5207,7 +5277,7 @@
     (instances
       (project "d-lev-io"
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "H5") (unit 1)
+          (reference "H3") (unit 1)
         )
       )
     )
@@ -5246,7 +5316,7 @@
   (symbol (lib_id "Connector:USB_C_Receptacle_USB2.0") (at 29.21 66.675 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7c0799ac-c3dd-4dc0-bde3-101b62ce21c9)
-    (property "Reference" "J1" (at 29.21 43.815 0)
+    (property "Reference" "J3" (at 29.21 43.815 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "USB_C_Receptacle_USB2.0" (at 29.21 46.355 0)
@@ -5278,7 +5348,7 @@
     (instances
       (project "d-lev-io"
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "J1") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
       (project "dlev-mini"
@@ -5292,7 +5362,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 122.936 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7cf1e741-317a-4ea0-9723-1293dce714d9)
-    (property "Reference" "TP13" (at 124.206 64.135 0)
+    (property "Reference" "TP31" (at 124.206 64.135 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "VUSB" (at 124.206 66.04 0)
@@ -5308,7 +5378,7 @@
     (instances
       (project "d-lev-io"
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "TP13") (unit 1)
+          (reference "TP31") (unit 1)
         )
       )
     )
@@ -5317,7 +5387,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 20.32 26.035 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7d7b5715-e281-4f1e-bba3-d21f1063cc50)
-    (property "Reference" "C1" (at 24.13 24.511 0)
+    (property "Reference" "C41" (at 24.13 24.511 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47u" (at 24.13 27.051 0)
@@ -5337,7 +5407,7 @@
     (instances
       (project "d-lev-io"
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "C1") (unit 1)
+          (reference "C41") (unit 1)
         )
       )
     )
@@ -5346,7 +5416,7 @@
   (symbol (lib_id "Device:D_Schottky") (at 116.84 26.035 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7e8bad66-fa1d-4809-a5e9-0005ccd68612)
-    (property "Reference" "D1" (at 117.1575 20.955 0)
+    (property "Reference" "D2" (at 117.1575 20.955 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SS34FA" (at 117.1575 23.495 0)
@@ -5363,7 +5433,7 @@
     (instances
       (project "d-lev-io"
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "D1") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -5372,7 +5442,7 @@
   (symbol (lib_id "74xGxx:74LVC2GU04") (at 209.55 99.695 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 88b7a6d1-146c-4d7f-8cc1-ca21bd2ef009)
-    (property "Reference" "U4" (at 208.28 89.535 0)
+    (property "Reference" "U1" (at 208.28 89.535 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74LVC2GU04" (at 208.28 92.075 0)
@@ -5393,7 +5463,7 @@
     (instances
       (project "d-lev-io"
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "U4") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -5402,7 +5472,7 @@
   (symbol (lib_id "Device:R_Small") (at 236.22 59.055 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 88e665a7-6d2f-40ff-affb-b324bce6090f)
-    (property "Reference" "R8" (at 232.41 57.785 90)
+    (property "Reference" "R1" (at 232.41 57.785 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220" (at 236.093 59.055 90)
@@ -5419,7 +5489,7 @@
     (instances
       (project "d-lev-io"
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "R8") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
       (project "dlev-mini"
@@ -5456,7 +5526,7 @@
           (reference "R42") (unit 1)
         )
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "R38") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -5523,7 +5593,7 @@
   (symbol (lib_id "Device:C_Small") (at 175.26 29.21 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8d19effb-381e-420c-b090-799b01b2a83b)
-    (property "Reference" "C4" (at 178.435 28.5686 0)
+    (property "Reference" "C33" (at 178.435 28.5686 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10u" (at 178.435 31.1086 0)
@@ -5540,7 +5610,7 @@
     (instances
       (project "d-lev-io"
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "C4") (unit 1)
+          (reference "C33") (unit 1)
         )
       )
     )
@@ -5549,7 +5619,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 19.05 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 912d834b-5378-4d41-9c7c-e348b23bc464)
-    (property "Reference" "H1" (at 22.225 112.395 0)
+    (property "Reference" "H4" (at 22.225 112.395 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole_Pad" (at 22.225 114.935 0)
@@ -5565,7 +5635,7 @@
     (instances
       (project "d-lev-io"
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "H1") (unit 1)
+          (reference "H4") (unit 1)
         )
       )
     )
@@ -5622,7 +5692,7 @@
           (reference "C22") (unit 1)
         )
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "C40") (unit 1)
+          (reference "C18") (unit 1)
         )
       )
     )
@@ -5657,7 +5727,7 @@
           (reference "U3") (unit 1)
         )
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "U3") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -5666,7 +5736,7 @@
   (symbol (lib_id "Device:R_Small") (at 106.045 62.865 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a019941f-d642-4597-82ca-0f735b1d7e44)
-    (property "Reference" "R32" (at 109.855 61.595 90)
+    (property "Reference" "R10" (at 109.855 61.595 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 106.172 62.865 90)
@@ -5686,7 +5756,7 @@
     (instances
       (project "d-lev-io"
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "R32") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
       (project "dlev-mini"
@@ -5700,7 +5770,7 @@
   (symbol (lib_id "Device:C_Small") (at 156.845 29.21 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a2b31bab-1ff3-4981-8a35-aa469579d2c2)
-    (property "Reference" "C2" (at 160.02 28.5686 0)
+    (property "Reference" "C30" (at 160.02 28.5686 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10u" (at 160.02 31.1086 0)
@@ -5717,7 +5787,7 @@
     (instances
       (project "d-lev-io"
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "C2") (unit 1)
+          (reference "C30") (unit 1)
         )
       )
     )
@@ -5781,7 +5851,7 @@
   (symbol (lib_id "Device:R_Small") (at 106.045 73.025 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a74ea49f-b024-44bb-acb8-c7074a25a4ca)
-    (property "Reference" "R34" (at 109.855 71.755 90)
+    (property "Reference" "R17" (at 109.855 71.755 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 106.172 73.025 90)
@@ -5798,7 +5868,7 @@
     (instances
       (project "d-lev-io"
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "R34") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
       (project "dlev-mini"
@@ -5834,6 +5904,31 @@
       (project "dlev-mini"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/6062d07e-a4ed-44ac-a6b0-014aac464169"
           (reference "#PWR0139") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:TestPoint") (at 206.883 23.495 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid ad8f676c-e093-4770-9992-417fb0b91e56)
+    (property "Reference" "TP39" (at 208.153 19.685 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "VDD_B4SW" (at 208.153 22.225 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (at 211.963 23.495 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 211.963 23.495 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 190b995f-b0d5-4352-ad8c-a9c5a8bf032f))
+    (instances
+      (project "d-lev-io"
+        (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
+          (reference "TP39") (unit 1)
         )
       )
     )
@@ -5890,7 +5985,7 @@
           (reference "R42") (unit 1)
         )
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "R40") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -5924,7 +6019,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 42.545 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b352935b-97fb-46b2-8701-e0d22e6087b9)
-    (property "Reference" "H4" (at 45.72 112.395 0)
+    (property "Reference" "H1" (at 45.72 112.395 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole_Pad" (at 45.72 114.935 0)
@@ -5940,7 +6035,7 @@
     (instances
       (project "d-lev-io"
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "H4") (unit 1)
+          (reference "H1") (unit 1)
         )
       )
     )
@@ -5949,7 +6044,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 119.126 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b41d45fa-d73e-48d3-9a48-b1eba36a74b1)
-    (property "Reference" "TP10" (at 120.396 56.515 0)
+    (property "Reference" "TP36" (at 120.396 56.515 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "VUSB" (at 120.396 58.42 0)
@@ -5965,7 +6060,7 @@
     (instances
       (project "d-lev-io"
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "TP10") (unit 1)
+          (reference "TP36") (unit 1)
         )
       )
     )
@@ -6007,7 +6102,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 120.396 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b7991f4b-8cae-418e-a619-02162c21af23)
-    (property "Reference" "TP11" (at 121.666 59.055 0)
+    (property "Reference" "TP38" (at 121.666 59.055 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "VUSB" (at 121.666 60.96 0)
@@ -6023,7 +6118,7 @@
     (instances
       (project "d-lev-io"
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "TP11") (unit 1)
+          (reference "TP38") (unit 1)
         )
       )
     )
@@ -6032,7 +6127,7 @@
   (symbol (lib_id "Connector:AudioJack3") (at 247.015 59.055 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b7a6c7c9-b2a0-4354-9538-2ee58e75fb92)
-    (property "Reference" "J4" (at 242.57 63.5 0)
+    (property "Reference" "J2" (at 242.57 63.5 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "MIDI_OUT_JACK" (at 247.015 66.04 0)
@@ -6050,7 +6145,7 @@
     (instances
       (project "d-lev-io"
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "J4") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
       (project "dlev-mini"
@@ -6120,7 +6215,7 @@
           (reference "J8") (unit 1)
         )
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "J8") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -6159,7 +6254,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 99.695 20.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bdeb5f08-ea65-4e1a-94f3-e8712e084677)
-    (property "Reference" "TP25" (at 100.965 16.51 0)
+    (property "Reference" "TP15" (at 100.965 16.51 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "VBUCK" (at 100.965 19.05 0)
@@ -6175,7 +6270,7 @@
     (instances
       (project "d-lev-io"
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "TP25") (unit 1)
+          (reference "TP15") (unit 1)
         )
       )
     )
@@ -6269,7 +6364,7 @@
           (reference "C22") (unit 1)
         )
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "C33") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -6278,7 +6373,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 115.316 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c14efb4d-45a8-47dd-8aaa-2bba6ed4f089)
-    (property "Reference" "TP7" (at 116.586 48.895 0)
+    (property "Reference" "TP33" (at 116.586 48.895 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "VUSB" (at 116.586 50.8 0)
@@ -6294,7 +6389,7 @@
     (instances
       (project "d-lev-io"
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "TP7") (unit 1)
+          (reference "TP33") (unit 1)
         )
       )
     )
@@ -6361,7 +6456,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 128.016 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c37fd179-9b6a-415f-bdd2-6fe1d5fd9a79)
-    (property "Reference" "TP17" (at 129.286 74.295 0)
+    (property "Reference" "TP37" (at 129.286 74.295 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "VUSB" (at 129.286 76.2 0)
@@ -6377,7 +6472,7 @@
     (instances
       (project "d-lev-io"
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "TP17") (unit 1)
+          (reference "TP37") (unit 1)
         )
       )
     )
@@ -6386,7 +6481,7 @@
   (symbol (lib_id "Device:R_Small") (at 236.22 61.595 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c4ccb41c-f90a-4384-97f4-5254cf0c3f16)
-    (property "Reference" "R18" (at 231.775 60.325 90)
+    (property "Reference" "R24" (at 231.775 60.325 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220" (at 236.093 61.595 90)
@@ -6403,7 +6498,7 @@
     (instances
       (project "d-lev-io"
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "R18") (unit 1)
+          (reference "R24") (unit 1)
         )
       )
       (project "dlev-mini"
@@ -6417,7 +6512,7 @@
   (symbol (lib_id "Device:C_Small") (at 166.37 29.21 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c79affeb-dda4-4bcd-94c1-5de8e277e77b)
-    (property "Reference" "C3" (at 169.545 28.5686 0)
+    (property "Reference" "C24" (at 169.545 28.5686 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10u" (at 169.545 31.1086 0)
@@ -6434,7 +6529,7 @@
     (instances
       (project "d-lev-io"
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "C3") (unit 1)
+          (reference "C24") (unit 1)
         )
       )
     )
@@ -6473,7 +6568,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 116.586 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c8e261c5-d228-4c97-a36c-a54709237b08)
-    (property "Reference" "TP8" (at 117.856 51.435 0)
+    (property "Reference" "TP29" (at 117.856 51.435 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "VUSB" (at 117.856 53.34 0)
@@ -6489,7 +6584,7 @@
     (instances
       (project "d-lev-io"
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "TP8") (unit 1)
+          (reference "TP29") (unit 1)
         )
       )
     )
@@ -6498,7 +6593,7 @@
   (symbol (lib_id "Device:C_Small") (at 203.2 29.21 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c8e4da84-4383-4c8f-9f6f-b4b8d5e729d0)
-    (property "Reference" "C7" (at 206.375 28.5686 0)
+    (property "Reference" "C32" (at 206.375 28.5686 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10u" (at 206.375 31.1086 0)
@@ -6515,7 +6610,7 @@
     (instances
       (project "d-lev-io"
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "C7") (unit 1)
+          (reference "C32") (unit 1)
         )
       )
     )
@@ -6577,7 +6672,7 @@
           (reference "C21") (unit 1)
         )
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "C21") (unit 1)
+          (reference "C27") (unit 1)
         )
       )
     )
@@ -6664,7 +6759,7 @@
           (reference "R44") (unit 1)
         )
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "R36") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
     )
@@ -6698,7 +6793,7 @@
   (symbol (lib_id "Device:R_Small") (at 106.045 78.105 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d807a387-4fe2-4376-9240-9c6f5f1af0a9)
-    (property "Reference" "R35" (at 109.855 76.835 90)
+    (property "Reference" "R15" (at 109.855 76.835 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0" (at 106.172 78.105 90)
@@ -6718,7 +6813,7 @@
     (instances
       (project "d-lev-io"
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "R35") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
       (project "dlev-mini"
@@ -6755,7 +6850,7 @@
           (reference "R42") (unit 1)
         )
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "R17") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
     )
@@ -6764,7 +6859,7 @@
   (symbol (lib_id "74xGxx:74LVC2GU04") (at 209.55 127 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid de5c7c55-c35b-4450-a8d1-c03fbeac68e1)
-    (property "Reference" "U4" (at 208.28 116.205 0)
+    (property "Reference" "U1" (at 208.28 116.205 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74LVC2GU04" (at 208.28 118.745 0)
@@ -6785,7 +6880,7 @@
     (instances
       (project "d-lev-io"
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "U4") (unit 2)
+          (reference "U1") (unit 2)
         )
       )
     )
@@ -6848,7 +6943,7 @@
   (symbol (lib_id "assorted:Conn_01x12_MountingPin") (at 138.811 65.405 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e4ae9435-f4e1-41b2-bfed-f51c3a32355c)
-    (property "Reference" "J3" (at 138.811 80.645 0)
+    (property "Reference" "J4" (at 138.811 80.645 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x12_MountingPin" (at 141.351 52.705 90)
@@ -6880,7 +6975,7 @@
     (instances
       (project "d-lev-io"
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "J3") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
       (project "dlev-mini"
@@ -6917,7 +7012,7 @@
           (reference "R42") (unit 1)
         )
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "R37") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -6948,6 +7043,31 @@
       (project "dlev-mini"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/6062d07e-a4ed-44ac-a6b0-014aac464169"
           (reference "#PWR0141") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:TestPoint") (at 210.312 61.595 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid e861b0dd-8fb7-40fd-b140-3fa42d7e7628)
+    (property "Reference" "TP11" (at 211.582 58.42 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "VUSB" (at 211.582 60.325 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (at 215.392 61.595 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 215.392 61.595 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid abefb713-7acb-443a-a6a3-e0e7b13e9eb0))
+    (instances
+      (project "d-lev-io"
+        (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
+          (reference "TP11") (unit 1)
         )
       )
     )
@@ -7011,7 +7131,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 117.856 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid eb79e5a6-3d7d-44b0-9748-cc9715d232dc)
-    (property "Reference" "TP9" (at 119.126 53.975 0)
+    (property "Reference" "TP27" (at 119.126 53.975 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "VUSB" (at 119.126 55.88 0)
@@ -7027,7 +7147,7 @@
     (instances
       (project "d-lev-io"
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "TP9") (unit 1)
+          (reference "TP27") (unit 1)
         )
       )
     )
@@ -7036,7 +7156,7 @@
   (symbol (lib_id "Device:D_Schottky") (at 140.97 26.035 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f6024839-4d52-40b6-9ed4-139e29f41f69)
-    (property "Reference" "D2" (at 140.6525 20.955 0)
+    (property "Reference" "D1" (at 140.6525 20.955 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SS34FA" (at 140.6525 23.495 0)
@@ -7053,7 +7173,7 @@
     (instances
       (project "d-lev-io"
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "D2") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
     )
@@ -7085,7 +7205,7 @@
           (reference "R42") (unit 1)
         )
         (path "/9261a07b-ae4a-4d72-8042-ea097cd0e5ed"
-          (reference "R39") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
