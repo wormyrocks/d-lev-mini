@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "theremin")(type "KiCad")(uri "${KIPRJMOD}/../d-lev-libraries/lib_fp.pretty")(options "")(descr ""))
   (lib (name "ess-dac")(type "KiCad")(uri "${KIPRJMOD}/../d-lev-libraries/ess-dac.pretty")(options "")(descr ""))
+  (lib (name "art")(type "KiCad")(uri "${KIPRJMOD}/../d-lev-libraries/art.pretty")(options "")(descr ""))
 )

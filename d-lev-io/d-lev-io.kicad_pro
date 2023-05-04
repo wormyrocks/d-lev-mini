@@ -484,7 +484,24 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "USB",
+        "pattern": "/SAMD11/USB.DP"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/SAMD11/USB.DN"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/UINN"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/UINP"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
