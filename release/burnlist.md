@@ -15,7 +15,7 @@
 - [ ] thank you notes
 
 # mainboard
-- [ ] place refdes'
+- [x] place refdes'
 
 # i/o board 
 - [ ] gerbolyze marla sketch
