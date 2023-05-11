@@ -1253,8 +1253,8 @@
     )
   )
 
-  (bus_alias "tuner" (members "scl" "sda" "oe" "le"))
   (bus_alias "lcdpins" (members "lcd{rs,e,pwm,data[0..3]}"))
+  (bus_alias "tuner" (members "scl" "sda" "oe" "le"))
   (junction (at 160.655 33.655) (diameter 0) (color 0 0 0 0)
     (uuid 01315af5-dbe4-493f-8f8a-0b25513ac305)
   )
