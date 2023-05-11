@@ -10,18 +10,21 @@
 - [ ] use commit hash in folder name
 
 # all boards
-- [ ] de-round round tracks
+- [x] de-round round tracks
 - [ ] design rule audit 
 - [ ] thank you notes
-- [ ] gerbolyze marla sketch
-- [ ] silk icons for top 10 line items
 
 # mainboard
 - [ ] place refdes'
 
 # i/o board 
+- [ ] gerbolyze marla sketch
 
 # tuner
-- [ ] gerbolyze'd front panel design
+- [ ] gerbolyze front panel design
 
 # afe
+- [ ] gerbolyze sketch
+
+# wontfix
+- [ ] silk icons for top 10 line items
