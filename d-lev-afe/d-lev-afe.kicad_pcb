@@ -273,7 +273,7 @@
       (stroke (width 0) (type solid)) (fill solid) (layer "F.Paste") (tstamp 3c457ca5-bc9b-4965-8f83-ec398f96ff85))
     (pad "1" thru_hole circle (at 0 0) (size 6.2 6.2) (drill 4.22) (layers "*.Cu" "*.Mask")
       (net 23 "unconnected-(H3-Pad1)") (pinfunction "1") (pintype "input+no_connect") (zone_connect 1) (tstamp 2a9f6654-fa21-48af-818f-29cdcca141d9))
-    (model "3d/SMTSO-M3-2ET.stp"
+    (model "${KIPRJMOD}/../d-lev-libraries/lib_fp.pretty/3d/SMTSO-M3-2ET.stp"
       (offset (xyz 0 0 -1.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 90 0))
@@ -2263,7 +2263,7 @@
       (stroke (width 0) (type solid)) (fill solid) (layer "F.Paste") (tstamp e7cea6ec-46c2-4f21-98c5-d77e4e83a84c))
     (pad "1" thru_hole circle (at 0 0) (size 6.2 6.2) (drill 4.22) (layers "*.Cu" "*.Mask")
       (net 25 "unconnected-(H5-Pad1)") (pinfunction "1") (pintype "input+no_connect") (zone_connect 1) (tstamp 4daba7f0-b1c4-4774-a04c-cdc0e9ff691c))
-    (model "3d/SMTSO-M3-2ET.stp"
+    (model "${KIPRJMOD}/../d-lev-libraries/lib_fp.pretty/3d/SMTSO-M3-2ET.stp"
       (offset (xyz 0 0 -1.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 90 0))
@@ -3820,7 +3820,7 @@
       (stroke (width 0) (type solid)) (fill solid) (layer "F.Paste") (tstamp f7ec3aa4-fc9a-41d4-b22e-e18f7b68f9ce))
     (pad "1" thru_hole circle (at 0 0) (size 6.2 6.2) (drill 4.22) (layers "*.Cu" "*.Mask")
       (net 24 "unconnected-(H4-Pad1)") (pinfunction "1") (pintype "input+no_connect") (zone_connect 1) (tstamp 2a2b29a9-fa75-459d-9a96-16a729718919))
-    (model "3d/SMTSO-M3-2ET.stp"
+    (model "${KIPRJMOD}/../d-lev-libraries/lib_fp.pretty/3d/SMTSO-M3-2ET.stp"
       (offset (xyz 0 0 -1.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 90 0))
@@ -5588,7 +5588,7 @@
       (stroke (width 0) (type solid)) (fill solid) (layer "F.Paste") (tstamp a2c20458-f3ba-497a-ab1d-1d9a6dda3941))
     (pad "1" thru_hole circle (at 0 0) (size 6.2 6.2) (drill 4.22) (layers "*.Cu" "*.Mask")
       (net 6 "unconnected-(H2-Pad1)") (pinfunction "1") (pintype "input+no_connect") (zone_connect 1) (tstamp 1dd8a560-b357-45c5-b539-fdaefaff1666))
-    (model "3d/SMTSO-M3-2ET.stp"
+    (model "${KIPRJMOD}/../d-lev-libraries/lib_fp.pretty/3d/SMTSO-M3-2ET.stp"
       (offset (xyz 0 0 -1.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 90 0))
@@ -5695,7 +5695,7 @@
       (stroke (width 0.12) (type solid)) (fill solid) (layer "F.Paste") (tstamp 16179b97-2b0e-4a67-9665-d1de4b33ffdd))
     (pad "1" thru_hole circle (at 0 0 90) (size 9.37 9.37) (drill 6.35) (layers "*.Cu" "*.Mask")
       (net 4 "L_IN") (pinfunction "1") (pintype "input") (clearance 0.75) (zone_connect 1) (thermal_bridge_width 2) (tstamp a9ece24f-24c7-4d72-82aa-9e4f60f044c5))
-    (model "3d/SMTSO-M4-8ET.stp"
+    (model "${KIPRJMOD}/../d-lev-libraries/lib_fp.pretty/3d/SMTSO-M4-8ET.stp"
       (offset (xyz 0 0 -1.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 90 0))

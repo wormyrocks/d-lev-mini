@@ -524,7 +524,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../../../../../Desktop/d-lev-tuner.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
