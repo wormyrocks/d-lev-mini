@@ -61,7 +61,9 @@
           "width": 0.27
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "hole_clearance|85533776|8055555|46b8f2b3-fa33-4757-9b6d-39cb22e4096e|ec181ddd-bed4-482f-be88-dbefcb7fc154"
+      ],
       "meta": {
         "version": 2
       },
@@ -523,7 +525,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "dlev-mini.kicad_pro",
+    "filename": "d-lev-main.kicad_pro",
     "version": 1
   },
   "net_settings": {
