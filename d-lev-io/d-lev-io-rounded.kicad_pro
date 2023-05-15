@@ -104,7 +104,7 @@
         "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "ignore",
+        "starved_thermal": "error",
         "text_height": "warning",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
@@ -490,24 +490,7 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "USB",
-        "pattern": "/UIN*"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "/SAMD11/USB.D*"
-      },
-      {
-        "netclass": "Big",
-        "pattern": "+12V"
-      },
-      {
-        "netclass": "Big",
-        "pattern": "/Buck/VOUT"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
