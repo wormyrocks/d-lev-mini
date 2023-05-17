@@ -43,7 +43,9 @@ vectorizer=binary-contours
 vectorizer=poisson-disc
 
 ztmp=$(mktemp -u).zip
-gerbolyze paste ${GERBER_DIR} ${SVGTOP} ${ztmp}
-gerbolyze paste ${ztmp} ${SVGBOTTOM} ${WORK_DIR}/${PROJECT}_pasted.zip
+#gerbolyze paste ${GERBER_DIR} ${SVGTOP} ${ztmp}
+#gerbolyze paste ${ztmp} ${SVGBOTTOM} ${WORK_DIR}/${PROJECT}_pasted.zip
+gerbolyze paste ${GERBER_DIR} ${SVGBOTTOM} ${WORK_DIR}/${PROJECT}_pasted.zip
+
 #svg-flatten ${SVGBOTTOM} -o s-exp -b ${vectorizer} --format kicad --sexp-mod-name ${project}-bottom ${WORK_DIR}/${project}-bottom.kicad_mod
 #svg-flatten ${SVGTOP} -o s-exp -b ${vectorizer} --format kicad --sexp-mod-name ${project}-top ${WORK_DIR}/${project}-top.kicad_mod

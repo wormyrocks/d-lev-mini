@@ -3,8 +3,8 @@
 # general to do's
 
 ## release script
-- [ ] round tracks
-- [ ] teardrops
+- [x] round tracks
+- [x] teardrops
 - [ ] gerbolyzation
 - [ ] panelization
 - [ ] use commit hash in folder name
@@ -28,3 +28,4 @@
 
 # wontfix
 - [ ] silk icons for top 10 line items
+- [ ] use absolute paths in d-lev-main in order for blender export to work properly

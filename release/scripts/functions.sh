@@ -7,7 +7,7 @@
 ###### kicad-cli functions 
 LAYERS="F.Cu,In1.Cu,In2.Cu,B.Cu,F.Mask,B.Mask,F.Silkscreen,B.Silkscreen,F.Paste,B.Paste,Edge.Cuts"
 creategerbers() { 
-	kicad-cli pcb export gerbers -l ${LAYERS} --disable-aperture-macros -o ${2} ${1} 
+	kicad-cli pcb export gerbers -l ${LAYERS} -o ${2} ${1} --no-refdes
 	kicad-cli pcb export drill --format gerber -o ${2}/ ${1} --excellon-separate-th
 	NEWGBRDIR=${WORKDIR}/${1}
 }
