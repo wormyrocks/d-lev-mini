@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "d-lev")(type "KiCad")(uri "${KIPRJMOD}/../../d-lev-libraries/lib_fp.pretty")(options "")(descr ""))
+)
