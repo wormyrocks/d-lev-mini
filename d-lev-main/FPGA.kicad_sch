@@ -2457,7 +2457,7 @@
     )
     (pin "1" (uuid b1b6f318-bfed-4ce5-b7de-5ffedaf524d2))
     (instances
-      (project "dlev-mini"
+      (project "d-lev-main"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
           (reference "#PWR010") (unit 1)
         )
@@ -2482,7 +2482,7 @@
     )
     (pin "1" (uuid d56766c2-b871-4d8d-af6a-ec337373776b))
     (instances
-      (project "dlev-mini"
+      (project "d-lev-main"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
           (reference "#PWR089") (unit 1)
         )
@@ -2491,12 +2491,12 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 105.41 186.055 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 0e7a4db4-8bc2-428d-9485-1d24d60ddfef)
     (property "Reference" "TP8" (at 106.68 189.23 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "GPIO_O2" (at 106.68 191.135 0)
+    (property "Value" "TestPoint" (at 106.68 191.135 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 100.33 186.055 0)
@@ -2505,9 +2505,33 @@
     (property "Datasheet" "~" (at 100.33 186.055 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Supplier" "" (at 105.41 186.055 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier URL" "" (at 105.41 186.055 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Tolerance" "" (at 105.41 186.055 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Notes" "" (at 105.41 186.055 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Alt" "" (at 105.41 186.055 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "" (at 105.41 186.055 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Alt URL" "" (at 105.41 186.055 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "DNP" "Y" (at 105.41 186.055 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 02295d9e-3b4e-4fdf-8b27-42ac90d644b0))
     (instances
-      (project "dlev-mini"
+      (project "d-lev-main"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
           (reference "TP8") (unit 1)
         )
@@ -2530,10 +2554,34 @@
     (property "Datasheet" "~" (at 166.37 28.575 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Supplier" "" (at 166.37 28.575 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier URL" "" (at 166.37 28.575 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Tolerance" "" (at 166.37 28.575 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Notes" "" (at 166.37 28.575 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Alt" "" (at 166.37 28.575 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "" (at 166.37 28.575 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Alt URL" "" (at 166.37 28.575 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "DNP" "" (at 166.37 28.575 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid ee5806fd-b07d-4eba-9060-8d6c2810faf1))
     (pin "2" (uuid a305ad0b-f89c-478d-aa8d-36ddc7803ca3))
     (instances
-      (project "dlev-mini"
+      (project "d-lev-main"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
           (reference "R14") (unit 1)
         )
@@ -2545,12 +2593,12 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 104.14 46.355 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 11fcbd7b-f333-4a27-baf0-91a78257c601)
     (property "Reference" "TP7" (at 106.68 42.418 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "3v3" (at 106.68 44.958 0)
+    (property "Value" "TestPoint" (at 106.68 44.958 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 109.22 46.355 0)
@@ -2559,9 +2607,33 @@
     (property "Datasheet" "~" (at 109.22 46.355 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Supplier" "" (at 104.14 46.355 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier URL" "" (at 104.14 46.355 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Tolerance" "" (at 104.14 46.355 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Notes" "" (at 104.14 46.355 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Alt" "" (at 104.14 46.355 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "" (at 104.14 46.355 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Alt URL" "" (at 104.14 46.355 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "DNP" "Y" (at 104.14 46.355 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 7c0fb03d-e759-4ff8-a4bb-731c138ae90c))
     (instances
-      (project "dlev-mini"
+      (project "d-lev-main"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
           (reference "TP7") (unit 1)
         )
@@ -2570,12 +2642,12 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 140.97 52.07 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1fb06ce9-71d5-4f0b-9969-ac8eb123b1ad)
     (property "Reference" "TP3" (at 143.51 48.133 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "2v5" (at 143.51 50.673 0)
+    (property "Value" "TestPoint" (at 143.51 50.673 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 146.05 52.07 0)
@@ -2584,9 +2656,33 @@
     (property "Datasheet" "~" (at 146.05 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Supplier" "" (at 140.97 52.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier URL" "" (at 140.97 52.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Tolerance" "" (at 140.97 52.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Notes" "" (at 140.97 52.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Alt" "" (at 140.97 52.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "" (at 140.97 52.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Alt URL" "" (at 140.97 52.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "DNP" "Y" (at 140.97 52.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 85a60623-464d-491f-9733-8fc988b2f38f))
     (instances
-      (project "dlev-mini"
+      (project "d-lev-main"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
           (reference "TP3") (unit 1)
         )
@@ -2611,7 +2707,7 @@
     )
     (pin "1" (uuid 72a8a07b-2ea7-489b-a284-b97d084cb246))
     (instances
-      (project "dlev-mini"
+      (project "d-lev-main"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
           (reference "#PWR015") (unit 1)
         )
@@ -2634,10 +2730,34 @@
     (property "Datasheet" "~" (at 166.37 31.115 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Supplier" "" (at 166.37 31.115 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier URL" "" (at 166.37 31.115 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Tolerance" "" (at 166.37 31.115 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Notes" "" (at 166.37 31.115 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Alt" "" (at 166.37 31.115 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "" (at 166.37 31.115 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Alt URL" "" (at 166.37 31.115 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "DNP" "" (at 166.37 31.115 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 1619ea53-a6b1-4a33-af55-8c89e9e8f8f3))
     (pin "2" (uuid bb0295cb-cf38-4814-9a16-e9d68f350da6))
     (instances
-      (project "dlev-mini"
+      (project "d-lev-main"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
           (reference "R16") (unit 1)
         )
@@ -2654,19 +2774,43 @@
     (property "Reference" "C2" (at 193.0463 110.49 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" ".01u" (at 193.0463 113.03 90)
+    (property "Value" "10n" (at 193.0463 113.03 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 193.04 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 193.04 106.68 0)
+    (property "Datasheet" "https://www.mouser.com/datasheet/2/212/1/KEM_C1090_X7R_ESD-1103328.pdf" (at 193.04 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier" "Mouser" (at 193.04 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier URL" "https://www.mouser.com/ProductDetail/80-C0603C103K2REAUTO" (at 193.04 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Tolerance" "" (at 193.04 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Notes" "Common, can substitute for cheaper" (at 193.04 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Alt" "" (at 193.04 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "C0603C103K2RECAUTO" (at 193.04 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Alt URL" "" (at 193.04 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "DNP" "" (at 193.04 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 284ae11b-2df9-4d24-a437-c1f9a7b8aa17))
     (pin "2" (uuid cbe835c6-a53f-4295-b057-1136c6ceaa03))
     (instances
-      (project "dlev-mini"
+      (project "d-lev-main"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
           (reference "C2") (unit 1)
         )
@@ -2678,12 +2822,12 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 107.95 182.245 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 2e4d5740-f0f6-4454-8364-256f9ef67c8c)
     (property "Reference" "TP2" (at 109.22 185.547 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "GPIO_I3" (at 109.22 187.325 0)
+    (property "Value" "TestPoint" (at 109.22 187.325 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 102.87 182.245 0)
@@ -2692,9 +2836,33 @@
     (property "Datasheet" "~" (at 102.87 182.245 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Supplier" "" (at 107.95 182.245 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier URL" "" (at 107.95 182.245 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Tolerance" "" (at 107.95 182.245 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Notes" "" (at 107.95 182.245 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Alt" "" (at 107.95 182.245 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "" (at 107.95 182.245 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Alt URL" "" (at 107.95 182.245 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "DNP" "Y" (at 107.95 182.245 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 184a1d10-a532-4887-8dfc-54a5e6d2d35b))
     (instances
-      (project "dlev-mini"
+      (project "d-lev-main"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
           (reference "TP2") (unit 1)
         )
@@ -2719,7 +2887,7 @@
     )
     (pin "1" (uuid ab09d856-63f6-4793-a4e8-9a6a95e3b0ff))
     (instances
-      (project "dlev-mini"
+      (project "d-lev-main"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
           (reference "#PWR090") (unit 1)
         )
@@ -2744,7 +2912,7 @@
     )
     (pin "1" (uuid cb0af754-6aaa-481e-84b4-b17b5d559dab))
     (instances
-      (project "dlev-mini"
+      (project "d-lev-main"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
           (reference "#PWR018") (unit 1)
         )
@@ -2767,13 +2935,37 @@
     (property "Footprint" "LED_SMD:LED_0603_1608Metric" (at 250.19 130.175 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 250.19 130.175 0)
+    (property "Datasheet" "https://www.mouser.com/ProductDetail/Wurth-Elektronik/150060GS75000" (at 250.19 130.175 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier" "Mouser" (at 250.19 130.175 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier URL" "https://www.mouser.com/ProductDetail/Wurth-Elektronik/150060GS75000" (at 250.19 130.175 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Tolerance" "" (at 250.19 130.175 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Notes" "" (at 250.19 130.175 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Alt" "" (at 250.19 130.175 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "" (at 250.19 130.175 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Alt URL" "" (at 250.19 130.175 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "DNP" "" (at 250.19 130.175 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 79355ad7-453b-4e60-8ad8-f0c1c16404ea))
     (pin "2" (uuid 10106ce4-6142-4e94-889f-c93c1eeae2ce))
     (instances
-      (project "dlev-mini"
+      (project "d-lev-main"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
           (reference "D3") (unit 1)
         )
@@ -2798,7 +2990,7 @@
     )
     (pin "1" (uuid 6a34abb4-9899-4040-9e43-c0c98402cef7))
     (instances
-      (project "dlev-mini"
+      (project "d-lev-main"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
           (reference "#PWR08") (unit 1)
         )
@@ -2820,6 +3012,30 @@
     )
     (property "Datasheet" "" (at 59.69 153.035 0)
       (effects (font (size 1.27 1.27)))
+    )
+    (property "Supplier" "Taobao" (at 97.79 108.585 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier URL" "https://item.taobao.com/item.htm?spm=a312a.7700824.w4004-16497661517.13.5d146921NXqK2t" (at 97.79 108.585 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Tolerance" "" (at 97.79 108.585 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Notes" "" (at 97.79 108.585 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Alt" "" (at 97.79 108.585 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "" (at 97.79 108.585 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Alt URL" "https://www.aliexpress.us/item/3256805040800929.htm" (at 97.79 108.585 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "DNP" "" (at 97.79 108.585 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 541679c3-4894-42e1-82d3-06a10b2b8b3f))
     (pin "10" (uuid 48b6c344-346f-4830-986f-1c345b284e98))
@@ -2946,7 +3162,7 @@
     (pin "98" (uuid 20f1a42c-7d43-4a4c-bd51-70326f327558))
     (pin "99" (uuid 75d69402-8faf-4164-8fab-3054ce81d060))
     (instances
-      (project "dlev-mini"
+      (project "d-lev-main"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
           (reference "U1") (unit 1)
         )
@@ -2960,13 +3176,37 @@
     (property "Reference" "U2" (at 183.5659 22.225 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "25LCxxx" (at 183.5659 24.765 0)
+    (property "Value" "25LC1024" (at 183.5659 24.765 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_SO:SOIC-8_5.275x5.275mm_P1.27mm" (at 181.61 31.115 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21832H.pdf" (at 181.61 31.115 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier" "Mouser" (at 181.61 31.115 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier URL" "https://www.mouser.com/ProductDetail/Microchip-Technology/25LC010AT-I-SN" (at 181.61 31.115 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Tolerance" "" (at 181.61 31.115 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Notes" "" (at 181.61 31.115 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Alt" "" (at 181.61 31.115 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "" (at 181.61 31.115 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Alt URL" "" (at 181.61 31.115 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "DNP" "" (at 181.61 31.115 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 8c17861a-17c2-4176-b72b-d367d190ee36))
@@ -2978,7 +3218,7 @@
     (pin "7" (uuid 0979e283-6f52-4fa0-8eaa-99522d2210dd))
     (pin "8" (uuid 673ff931-549d-4a4d-adb2-faa50c4dbeea))
     (instances
-      (project "dlev-mini"
+      (project "d-lev-main"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
           (reference "U2") (unit 1)
         )
@@ -3003,7 +3243,7 @@
     )
     (pin "1" (uuid 387cf786-8a11-44cd-a026-90fbb6a890ba))
     (instances
-      (project "dlev-mini"
+      (project "d-lev-main"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
           (reference "#PWR017") (unit 1)
         )
@@ -3028,7 +3268,7 @@
     )
     (pin "1" (uuid d62aef22-32f0-4a12-a9be-eef0294bcd18))
     (instances
-      (project "dlev-mini"
+      (project "d-lev-main"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
           (reference "#PWR09") (unit 1)
         )
@@ -3051,10 +3291,34 @@
     (property "Datasheet" "~" (at 160.655 37.465 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Supplier" "" (at 160.655 37.465 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier URL" "" (at 160.655 37.465 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Tolerance" "" (at 160.655 37.465 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Notes" "" (at 160.655 37.465 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Alt" "" (at 160.655 37.465 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "" (at 160.655 37.465 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Alt URL" "" (at 160.655 37.465 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "DNP" "" (at 160.655 37.465 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid b69c4d6a-636d-476b-b793-55e4883fe109))
     (pin "2" (uuid 2c55ab54-8e96-4529-961d-82a530c46d99))
     (instances
-      (project "dlev-mini"
+      (project "d-lev-main"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
           (reference "R15") (unit 1)
         )
@@ -3082,7 +3346,7 @@
     )
     (pin "1" (uuid dccb2460-001f-4994-a5b2-15658a1e17c3))
     (instances
-      (project "dlev-mini"
+      (project "d-lev-main"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
           (reference "#PWR087") (unit 1)
         )
@@ -3107,7 +3371,7 @@
     )
     (pin "1" (uuid 5d995269-76b4-42e4-8296-d9707522dec5))
     (instances
-      (project "dlev-mini"
+      (project "d-lev-main"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
           (reference "#PWR038") (unit 1)
         )
@@ -3132,7 +3396,7 @@
     )
     (pin "1" (uuid e1136714-17a4-4f4c-9105-da8fb665680f))
     (instances
-      (project "dlev-mini"
+      (project "d-lev-main"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
           (reference "#PWR088") (unit 1)
         )
@@ -3157,7 +3421,7 @@
     )
     (pin "1" (uuid e321a9f0-4f8d-4717-8911-4134d8f94bf8))
     (instances
-      (project "dlev-mini"
+      (project "d-lev-main"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
           (reference "#PWR020") (unit 1)
         )
@@ -3185,7 +3449,7 @@
     )
     (pin "1" (uuid d1c04f9b-6c0e-4a80-a98a-b04ec0f5f01e))
     (instances
-      (project "dlev-mini"
+      (project "d-lev-main"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
           (reference "#PWR06") (unit 1)
         )
@@ -3210,7 +3474,7 @@
     )
     (pin "1" (uuid 6a8be180-78fd-4b06-902a-884a2f002bb1))
     (instances
-      (project "dlev-mini"
+      (project "d-lev-main"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
           (reference "#PWR01") (unit 1)
         )
@@ -3233,10 +3497,34 @@
     (property "Datasheet" "~" (at 179.705 95.885 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Supplier" "" (at 179.705 95.885 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier URL" "" (at 179.705 95.885 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Tolerance" "" (at 179.705 95.885 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Notes" "" (at 179.705 95.885 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Alt" "" (at 179.705 95.885 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "" (at 179.705 95.885 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Alt URL" "" (at 179.705 95.885 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "DNP" "" (at 179.705 95.885 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 84e77e35-92d6-40c9-9858-83cba2083d90))
     (pin "2" (uuid 5f5a4afd-9e52-42ce-afea-91e8b72bc926))
     (instances
-      (project "dlev-mini"
+      (project "d-lev-main"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
           (reference "R8") (unit 1)
         )
@@ -3245,12 +3533,12 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 113.03 41.275 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7ded624f-83d2-450a-89fd-08cf672603ed)
     (property "Reference" "TP6" (at 115.57 37.338 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1v2" (at 115.57 39.878 0)
+    (property "Value" "TestPoint" (at 115.57 39.878 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 118.11 41.275 0)
@@ -3259,9 +3547,33 @@
     (property "Datasheet" "~" (at 118.11 41.275 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Supplier" "" (at 113.03 41.275 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier URL" "" (at 113.03 41.275 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Tolerance" "" (at 113.03 41.275 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Notes" "" (at 113.03 41.275 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Alt" "" (at 113.03 41.275 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "" (at 113.03 41.275 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Alt URL" "" (at 113.03 41.275 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "DNP" "Y" (at 113.03 41.275 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 9187cfc2-7a23-4cb4-9e78-5d367c3740d0))
     (instances
-      (project "dlev-mini"
+      (project "d-lev-main"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
           (reference "TP6") (unit 1)
         )
@@ -3284,10 +3596,34 @@
     (property "Datasheet" "~" (at 259.08 121.285 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Supplier" "" (at 259.08 121.285 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier URL" "" (at 259.08 121.285 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Tolerance" "" (at 259.08 121.285 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Notes" "" (at 259.08 121.285 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Alt" "" (at 259.08 121.285 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "" (at 259.08 121.285 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Alt URL" "" (at 259.08 121.285 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "DNP" "" (at 259.08 121.285 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 443afcaa-88cd-41ab-92a3-fa78c94d101f))
     (pin "2" (uuid efcb6e6f-14c9-42d2-a71d-ccda44669112))
     (instances
-      (project "dlev-mini"
+      (project "d-lev-main"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
           (reference "R3") (unit 1)
         )
@@ -3296,12 +3632,12 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 113.03 184.15 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 88c9436d-4f55-45f1-afb2-e31898345f60)
     (property "Reference" "TP9" (at 117.475 184.15 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "GPIO_I2" (at 117.475 186.69 90)
+    (property "Value" "TestPoint" (at 117.475 186.69 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 113.03 189.23 0)
@@ -3310,9 +3646,33 @@
     (property "Datasheet" "~" (at 113.03 189.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Supplier" "" (at 113.03 184.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier URL" "" (at 113.03 184.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Tolerance" "" (at 113.03 184.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Notes" "" (at 113.03 184.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Alt" "" (at 113.03 184.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "" (at 113.03 184.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Alt URL" "" (at 113.03 184.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "DNP" "Y" (at 113.03 184.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid d6e95257-3cec-4a0b-9910-754883c40d9e))
     (instances
-      (project "dlev-mini"
+      (project "d-lev-main"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
           (reference "TP9") (unit 1)
         )
@@ -3337,7 +3697,7 @@
     )
     (pin "1" (uuid 0797f972-223a-475c-bd11-0bd0a04bc3a3))
     (instances
-      (project "dlev-mini"
+      (project "d-lev-main"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
           (reference "#PWR011") (unit 1)
         )
@@ -3362,7 +3722,7 @@
     )
     (pin "1" (uuid 7453f4e0-0c66-4576-9120-87a32d3ddf95))
     (instances
-      (project "dlev-mini"
+      (project "d-lev-main"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
           (reference "#PWR07") (unit 1)
         )
@@ -3371,12 +3731,12 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 102.87 190.5 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 97c1ee2c-1940-4cd0-bffd-08e6db86daa0)
     (property "Reference" "TP1" (at 104.14 193.675 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "GPIO_O3" (at 104.14 195.453 0)
+    (property "Value" "TestPoint" (at 104.14 195.453 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 97.79 190.5 0)
@@ -3385,12 +3745,33 @@
     (property "Datasheet" "~" (at 97.79 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Field4" "" (at 102.87 190.5 0)
+    (property "Supplier" "" (at 102.87 190.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier URL" "" (at 102.87 190.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Tolerance" "" (at 102.87 190.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Notes" "" (at 102.87 190.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Alt" "" (at 102.87 190.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "" (at 102.87 190.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Alt URL" "" (at 102.87 190.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "DNP" "Y" (at 102.87 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid ef00b08c-e169-4960-ab51-ca6e317d6539))
     (instances
-      (project "dlev-mini"
+      (project "d-lev-main"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
           (reference "TP1") (unit 1)
         )
@@ -3399,7 +3780,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_02x03_Odd_Even") (at 210.82 148.59 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 99dec11c-655b-48c6-97b3-d1ee93c9db7e)
     (property "Reference" "J5" (at 212.09 139.7 0)
       (effects (font (size 1.27 1.27)))
@@ -3410,7 +3791,31 @@
     (property "Footprint" "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical" (at 210.82 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 210.82 148.59 0)
+    (property "Datasheet" "n/a" (at 210.82 148.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier" "" (at 210.82 148.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier URL" "" (at 210.82 148.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Tolerance" "" (at 210.82 148.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Notes" "" (at 210.82 148.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Alt" "" (at 210.82 148.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "" (at 210.82 148.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Alt URL" "" (at 210.82 148.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "DNP" "Y" (at 210.82 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 55506264-1d57-400e-a69f-1481c16637f4))
@@ -3420,7 +3825,7 @@
     (pin "5" (uuid cf395656-e382-4dd5-b217-7b1a83c4dae7))
     (pin "6" (uuid 656353bd-c850-4dd6-a4c0-da7046be4889))
     (instances
-      (project "dlev-mini"
+      (project "d-lev-main"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
           (reference "J5") (unit 1)
         )
@@ -3445,7 +3850,7 @@
     )
     (pin "1" (uuid 6007d5f8-8c6a-41b2-95aa-0f0982677300))
     (instances
-      (project "dlev-mini"
+      (project "d-lev-main"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
           (reference "#PWR012") (unit 1)
         )
@@ -3468,10 +3873,34 @@
     (property "Datasheet" "~" (at 250.19 121.285 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Supplier" "" (at 250.19 121.285 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier URL" "" (at 250.19 121.285 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Tolerance" "" (at 250.19 121.285 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Notes" "" (at 250.19 121.285 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Alt" "" (at 250.19 121.285 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "" (at 250.19 121.285 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Alt URL" "" (at 250.19 121.285 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "DNP" "" (at 250.19 121.285 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 8d0e3694-5596-41d7-80dc-c6b73f41df3a))
     (pin "2" (uuid 62a62f79-e21b-4f48-9c44-11de9502af09))
     (instances
-      (project "dlev-mini"
+      (project "d-lev-main"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
           (reference "R2") (unit 1)
         )
@@ -3496,7 +3925,7 @@
     )
     (pin "1" (uuid 4692e279-9895-4bb6-88a5-b2bc18aac1d5))
     (instances
-      (project "dlev-mini"
+      (project "d-lev-main"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
           (reference "#PWR019") (unit 1)
         )
@@ -3521,7 +3950,7 @@
     )
     (pin "1" (uuid 19c21139-992e-490a-8727-ac2ab65499cd))
     (instances
-      (project "dlev-mini"
+      (project "d-lev-main"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
           (reference "#PWR013") (unit 1)
         )
@@ -3546,7 +3975,7 @@
     )
     (pin "1" (uuid 6815b275-22fd-4ae7-bd24-592548c41f15))
     (instances
-      (project "dlev-mini"
+      (project "d-lev-main"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
           (reference "#PWR086") (unit 1)
         )
@@ -3571,7 +4000,7 @@
     )
     (pin "1" (uuid 3ac8af21-6100-4c60-8271-0cc97a7a6946))
     (instances
-      (project "dlev-mini"
+      (project "d-lev-main"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
           (reference "#PWR091") (unit 1)
         )
@@ -3596,7 +4025,7 @@
     )
     (pin "1" (uuid e4acc5f8-8724-4b0b-97d5-65b483ade27e))
     (instances
-      (project "dlev-mini"
+      (project "d-lev-main"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
           (reference "#PWR085") (unit 1)
         )
@@ -3616,13 +4045,37 @@
     (property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P" (at 193.04 97.155 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 193.04 97.155 0)
+    (property "Datasheet" "https://www.mouser.com/datasheet/2/307/en-b3u-3615.pdf" (at 193.04 97.155 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier" "Mouser" (at 193.04 102.235 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier URL" "https://www.mouser.com/ProductDetail/Omron-Electronics/B3U-1000P" (at 193.04 102.235 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Tolerance" "" (at 193.04 102.235 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Notes" "" (at 193.04 102.235 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Alt" "" (at 193.04 102.235 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "" (at 193.04 102.235 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Alt URL" "" (at 193.04 102.235 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "DNP" "" (at 193.04 102.235 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 00f353c1-463d-468b-a956-80cef23eec56))
     (pin "2" (uuid 93cb4552-c401-4af2-86c1-adda05736139))
     (instances
-      (project "dlev-mini"
+      (project "d-lev-main"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
           (reference "SW1") (unit 1)
         )
@@ -3647,7 +4100,7 @@
     )
     (pin "1" (uuid ef6ed4e5-5169-4232-bed6-e9f91c4cda42))
     (instances
-      (project "dlev-mini"
+      (project "d-lev-main"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
           (reference "#PWR03") (unit 1)
         )
@@ -3670,13 +4123,37 @@
     (property "Footprint" "LED_SMD:LED_0603_1608Metric" (at 240.665 130.175 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 240.665 130.175 0)
+    (property "Datasheet" "https://www.mouser.com/ProductDetail/Wurth-Elektronik/150060GS75000" (at 240.665 130.175 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier" "Mouser" (at 240.665 130.175 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier URL" "https://www.mouser.com/ProductDetail/Wurth-Elektronik/150060GS75000" (at 240.665 130.175 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Tolerance" "" (at 240.665 130.175 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Notes" "" (at 240.665 130.175 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Alt" "" (at 240.665 130.175 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "" (at 240.665 130.175 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Alt URL" "" (at 240.665 130.175 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "DNP" "" (at 240.665 130.175 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid d3817302-134f-4fe5-bb01-be526179056c))
     (pin "2" (uuid 051d5b21-e002-4e46-ae80-da5cb9a5224e))
     (instances
-      (project "dlev-mini"
+      (project "d-lev-main"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
           (reference "D2") (unit 1)
         )
@@ -3701,7 +4178,7 @@
     )
     (pin "1" (uuid d853abfc-5910-4d2d-b90c-16c5c6d1bbfd))
     (instances
-      (project "dlev-mini"
+      (project "d-lev-main"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
           (reference "#PWR014") (unit 1)
         )
@@ -3721,13 +4198,37 @@
     (property "Footprint" "LED_SMD:LED_0603_1608Metric" (at 259.08 130.175 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 259.08 130.175 0)
+    (property "Datasheet" "https://www.mouser.com/ProductDetail/Wurth-Elektronik/150060GS75000" (at 259.08 130.175 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier" "Mouser" (at 259.08 130.175 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier URL" "https://www.mouser.com/ProductDetail/Wurth-Elektronik/150060GS75000" (at 259.08 130.175 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Tolerance" "" (at 259.08 130.175 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Notes" "" (at 259.08 130.175 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Alt" "" (at 259.08 130.175 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "" (at 259.08 130.175 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Alt URL" "" (at 259.08 130.175 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "DNP" "" (at 259.08 130.175 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid b69e6ad4-e1f3-49b6-9065-756136393750))
     (pin "2" (uuid 05ddd70b-6c0d-49c6-b95d-56ff171de466))
     (instances
-      (project "dlev-mini"
+      (project "d-lev-main"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
           (reference "D1") (unit 1)
         )
@@ -3750,10 +4251,34 @@
     (property "Datasheet" "~" (at 240.665 121.285 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Supplier" "" (at 240.665 121.285 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier URL" "" (at 240.665 121.285 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Tolerance" "" (at 240.665 121.285 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Notes" "" (at 240.665 121.285 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Alt" "" (at 240.665 121.285 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "" (at 240.665 121.285 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Alt URL" "" (at 240.665 121.285 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "DNP" "" (at 240.665 121.285 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid f9f79480-722f-44cb-9c4d-c8d48b660b15))
     (pin "2" (uuid abea56c8-79a5-49d9-b834-ac1bc4332182))
     (instances
-      (project "dlev-mini"
+      (project "d-lev-main"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
           (reference "R1") (unit 1)
         )
@@ -3778,7 +4303,7 @@
     )
     (pin "1" (uuid c9011856-109b-4476-8895-31e3f1f13fdb))
     (instances
-      (project "dlev-mini"
+      (project "d-lev-main"
         (path "/eb5e8bfd-9871-4528-bf57-58851bf63907/acdfb54c-8449-4fbe-9778-47a925c872ef"
           (reference "#PWR083") (unit 1)
         )
