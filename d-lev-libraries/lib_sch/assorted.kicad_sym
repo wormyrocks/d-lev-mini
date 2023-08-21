@@ -236,7 +236,7 @@
         (name "MountPin1" (effects (font (size 1.27 1.27))))
         (number "MP1" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 1.27 -15.24 90) (length 3.048) hide
+      (pin passive line (at 1.27 -15.24 90) (length 3.048)
         (name "MountPin2" (effects (font (size 1.27 1.27))))
         (number "MP2" (effects (font (size 1.27 1.27))))
       )

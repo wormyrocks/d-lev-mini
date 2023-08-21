@@ -1,0 +1,42 @@
+(footprint "SolderJumper-0.5mm-Tiny" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
+  (tags "solder jumper open")
+  (property "Sheetfile" "d-lev-afe.kicad_sch")
+  (property "Sheetname" "")
+  (property "ki_description" "Solder Jumper, 2-pole, open")
+  (property "ki_keywords" "solder jumper SPST")
+  (attr exclude_from_pos_files)
+  (fp_text reference "JP1" (at 0 -1.27) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp bc8a96a6-ed16-4bf4-9f52-6ceddd191340)
+  )
+  (fp_text value "SolderJumper_2_Open" (at 0 1.27) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 9b17fdeb-46bc-4291-9dc5-c9fc1b4d5dd9)
+  )
+  (fp_circle (center 0 0) (end 0.15 0)
+    (stroke (width 0.12) (type solid)) (fill solid) (layer "F.Mask") (tstamp ab9948a2-461c-4a19-a0a0-ca6545ce79bf))
+  (fp_rect (start -0.45 -0.35) (end 0.45 0.35)
+    (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp 42003ca6-ccf6-4111-af87-c9c0479c5125))
+  (pad "1" smd custom (at -0.3 0) (size 0.2 0.2) (layers "F.Cu")
+    (thermal_bridge_angle 45)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly
+        (pts
+          (arc (start 0.2 -0.25) (mid -0.05 0) (end 0.2 0.25))
+        )
+        (width 0.1) (fill yes))
+    ) (tstamp 12f12ae2-0c13-41a4-9f0b-c878fedfff7c))
+  (pad "2" smd custom (at 0.3 0 180) (size 0.2 0.2) (layers "F.Cu")
+    (thermal_bridge_angle 45)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly
+        (pts
+          (arc (start 0.2 -0.25) (mid -0.05 0) (end 0.2 0.25))
+        )
+        (width 0.1) (fill yes))
+    ) (tstamp 85363f15-e563-4df7-9f52-672e5b9b1626))
+)
